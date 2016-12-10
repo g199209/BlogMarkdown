@@ -106,10 +106,10 @@ Count = _mm_popcnt_u32(num);
 
 在ARM中，也有类似的指令，比如[POPCOUNT宏](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0081b/CHDJJGAJ.html)（需要约10个时钟周期），[NEON](http://www.arm.com/zh/products/processors/technologies/neon.php) SIMD指令集中的[VCNT](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0489g/CIHCFDBJ.html)及[CNT](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0802a/CNT_advsimd_vector.html)指令。
 
+POPCNT指令应该是有其实际重要作用的，比如在OpenCV的编译过程中就可以选择是否启用POPCNT指令。
+
 ## 执行时间对比
 毫无疑问，直接调用CPU指令是最佳的解决方案，将其执行时间规定为1，对其他算法的执行时间进行归一化处理，结果如下：
 ![](http://7xnwyt.com1.z0.glb.clouddn.com/20160224Graph.png-height)
 
 从中可以看到，除了特别简单的情况下（如0x01），分枝法与三分法的执行效率是最好的，且这两种算法是稳定的算法，其执行时间不依赖于输入数据。逐次清除最低位1法在1的个数较少时也不失为一种好方法。
-
-
