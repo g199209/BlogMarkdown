@@ -18,7 +18,7 @@ npm install hexo-generator-archive --save
 
 ```
 
-安装好后修改`_config.yml`中的相关配置为：
+安装好后修改`_config.yml`中的相关配置，分别对`index`、`archive`、`tag`及`category`页面进行设置即可：
 
 ```
 # Pagination
@@ -31,6 +31,9 @@ archive_generator:
 
 tag_generator:
   per_page: 0
+
+category_generator:
+  per_page: 50
 ```
 
 参考资料：
