@@ -460,7 +460,28 @@ C语言标准库有各种不同的实现，比如最著名的[glibc](https://www
 <span id="limits"></span>
 ## limits.h ##
 
-定义了基本数据类型（int、char、short等）的最大值及最小值。
+定义了基本数据类型（int、char、short等）的最大值及最小值。常用宏定义有：
+
+| Name | Comment |
+| ------- | --------|
+|`CHAR_BIT` | 一个字节的比特数 |
+|`SCHAR_MIN` | 带符号字符最小值 |
+|`SCHAR_MAX` | 带符号字符最大值 |
+|`UCHAR_MAX` | 无符号字符最大值 |
+|`CHAR_MIN` | `char`的最小值 |
+|`CHAR_MAX` | `char`的最大值 |
+|`SHRT_MIN` | 带符号短整型最小值 |
+|`SHRT_MAX` | 带符号短整型最大值 |
+|`USHRT_MAX` | 无符号短整型最大值 |
+|`INT_MIN` | 带符号整形最小值 |
+|`INT_MAX` | 带符号整形最大值 |
+|`UINT_MAX` | 无符号整形最大值 |
+|`LONG_MIN` | 带符号长整形最小值 |
+|`LONG_MAX` | 带符号长整形最大值 |
+|`ULONG_MAX` | 无符号长整形最大值 |
+
+
+
 
 
 
