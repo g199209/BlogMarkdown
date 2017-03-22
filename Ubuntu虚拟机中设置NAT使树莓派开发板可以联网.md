@@ -86,7 +86,7 @@ pre-up iptables-restore < /etc/iptables.rules
 如果要临时更改DNS服务器，可修改`/etc/resolve.conf`文件：
 
 ```bash
-nameserver 192.168.195.2
+nameserver 192.168.175.2
 ```
 
 ----------

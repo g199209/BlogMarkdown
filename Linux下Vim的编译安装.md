@@ -60,8 +60,10 @@ apt-get install perl libperl-dev
 ### Tcl
 
 ```bash
-apt-get install tcl8.6 tcl8.6-dev libtcl8.6
+apt-get install tcl8.5 tcl8.5-dev libtcl8.5
 ```
+
+Tcl的最新版本是8.6，不过此处不能选择最新版本，要选8.5版本的。
 
 ----------
 
