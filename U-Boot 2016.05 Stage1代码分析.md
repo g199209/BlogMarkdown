@@ -2,6 +2,8 @@ title: U-Boot 2016.05 Stage1代码分析
 date: 2016-07-15 17:14:24
 tags: [Bootloader, Top]
 categories: 嵌入式
+mathjax: false
+fancybox: false
 
 ---
 
@@ -83,7 +85,7 @@ reset:
 ## **start.S** ##
 
 `start.S`的执行流程见下图：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/201607072146.png-width600)
+![](http://7xnwyt.com1.z0.glb.clouddn.com/U-Boot%20Stage1_1.svg)
 
 `lowlevel_init`是平台相关的，故它位于`board/samsung/smdk2440/lowlevel_init.S`中。此处需要完成内存控制器的初始化工作，以便之后能正常使用SDRAM。对于S3C2440来说，就是初始化了`BWSCON`、`BANKCONn`、`REFRESH`、`BANKSIZE`、`MRSRB`这些寄存器。
 
@@ -94,35 +96,35 @@ reset:
 `crt0.S`文件开头的注释中说明了`_main`的执行序列，摘录如下：
 
 > This file handles the target-independent stages of the U-Boot start-up where a C runtime environment is needed. Its entry point is _main and is branched into from the target's start.S file.
-> 
+>
 > _main execution sequence is:
-> 
+>
 > 1. Set up initial environment for calling board_init_f().
 > This environment only provides a stack and a place to store the GD ('global data') structure, both located in some readily available RAM (SRAM, locked cache...). In this context, VARIABLE global data, initialized or not (BSS), are UNAVAILABLE; only CONSTANT initialized data are available. GD should be zeroed before board_init_f() is called.
-> 
+>
 > 2. Call board_init_f().
 > This function prepares the hardware for execution from system RAM (DRAM, DDR...) As system RAM may not be available yet, , board_init_f() must use the current GD to store any data which must be passed on to later stages. These data include the relocation destination, the future stack, and the future GD location.
-> 
+>
 > 3. Set up intermediate environment where the stack and GD are the ones allocated by board_init_f() in system RAM, but BSS and initialized non-const data are still not available.
-> 
+>
 > 4. For U-Boot proper (not SPL), call relocate_code().
 > This function relocates U-Boot from its current location into the relocation destination computed by board_init_f().
-> 
+>
 > 5. Set up final environment for calling board_init_r().
 > This environment has BSS (initialized to 0), initialized non-const data (initialized to their intended value), and stack in system RAM. GD has retained values set by board_init_f().
-> 
+>
 > 6. For U-Boot proper (not SPL), some CPUs have some work left to do at this point regarding memory, so call c_runtime_cpu_setup.
-> 
+>
 > 7. Branch to board_init_r().
 
 其程序流程图如下：
 
-![](http://7xnwyt.com1.z0.glb.clouddn.com/201607151716.png-width600)
+![](http://7xnwyt.com1.z0.glb.clouddn.com/U-Boot%20Stage1_2.svg)
 
 全局变量`gd`是一个`struct global_data`类型的结构体，此结构体的定义位于`include/asm-generic/global_data.h`文件中。此结构体保存了初始化阶段需要用到的各种全局变量，大约有100个左右，相关说明如下：
 
 > The following data structure is placed in some memory which is available very early after boot (like DPRAM on MPC8xx/MPC82xx, or some locked parts of the data cache) to allow for a minimum set of global variables during system initialization (until we have set up the memory controller so that we can use RAM).
-> Keep it **SMALL** and remember to set GENERATED_GBL_DATA_SIZE > sizeof(gd_t) 
+> Keep it **SMALL** and remember to set GENERATED_GBL_DATA_SIZE > sizeof(gd_t)
 > Each architecture has its own private fields. For now all are private
 
 下面具体说明每一步的作用：

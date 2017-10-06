@@ -187,6 +187,10 @@ Atom中的terminal插件有很多，使用下来最好用的是`platformio-ide-t
 
 最后一个待解决的问题就是调试器，要是能把GDB等集成到Atom里面就完美了，这个之后再来折腾……
 
+> Update 2017-10-05:
+> 对于Python来说，可以安装`autocomplete-python`和`linter-pylama`，Python的语法补全和错误检查比C语言用起来感觉更好~
+> 关于调试器，可以使用`dbg-gdb`插件
+
 ### 其它插件
 
 - `highlight-selected` : 高亮当前选中的单词

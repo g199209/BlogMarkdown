@@ -23,7 +23,7 @@ categories: 编程
 
 其余函数用于在几种不同数据结构间进行转换，根据需要选取即可，其中`tm`类型的定义一般是这样的：
 
-``` C
+```C
 struct tm {
     int tm_sec;     /* [0, 60], 1 leap second */
     int tm_min;     /* [0, 59] */
@@ -92,7 +92,7 @@ struct tm * gmtime(time_t * timer) {
   secs %= 3600;
   ts.tm_min = secs / 60;
   ts.tm_sec = secs % 60;
-  
+
   return &ts;
 }
 ```
@@ -271,3 +271,7 @@ char * tmpstr = #100"\n";
 
 考虑到预处理命令都是以`#`开头的，`#`本身应该也算是一个预处理指令，所以并不能直接用于程序中。
 
+> Update 2017-10-06:
+> 以上用法都是C语言本身的特性，现在终于能很好的理解清楚了，详见：
+> [C语言中的字符串字面量连接](/2017/10/05/string_literal_concatenate/)
+> [深入理解C语言中宏定义](/2017/10/06/C_Macro/)
