@@ -21,9 +21,9 @@ date: 2017-03-01 22:34:37
 $ ssh-keygen
 
 Generating public/private rsa key pair.
-Enter file in which to save the key (/home/gmf/.ssh/id_rsa): 
-Enter passphrase (empty for no passphrase): 
-Enter same passphrase again: 
+Enter file in which to save the key (/home/gmf/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
 Your identification has been saved in /home/gmf/.ssh/id_rsa.
 Your public key has been saved in /home/gmf/.ssh/id_rsa.pub.
 ```
@@ -70,7 +70,7 @@ cat id_rsa.pub >> ~/.ssh/authorized_keys
 ssh-copy-id user@host
 ```
 
-需要注意的是，`~/.ssh`目录及`~/.ssh/authorized_keys`文件都**必须是**600权限的，如果不是的话要先修改一下，否则之后ssh客户端会出于安全因素拒绝使用此证书文件。
+需要注意的是，`~/.ssh`目录及`~/.ssh/authorized_keys`文件**必须是**700及600权限的，如果不是的话要先修改一下，否则之后ssh客户端会出于安全因素拒绝使用此证书文件。
 
 ### 重启sshd服务
 
