@@ -44,7 +44,7 @@ apt-get install python python3 python-dev python3-dev
 ```bash
 apt-get install ruby ruby-dev
 ```
- 
+
 ### Lua
 
 ```bash
@@ -131,6 +131,16 @@ make clean && make distclean
 ```
 
 现在就可以尽情享受最新版的Vim了~
+
+
+
+> Update 2018-03-03:
+>
+> 以上编译选项编译出的vim可能会缺少clipboard支持，这会导致与系统剪贴板交互存在问题。同时为简化之后重复编译升级vim的过程，可编写一个脚本文件来自动执行上述操作，详见：
+>
+> https://github.com/g199209/vimrc
+
+
 
 ----------
 

@@ -57,8 +57,12 @@ minify = function (str) { // 压缩成一行
 
 精简后，生成的`search.xml`文件体积可缩小为原来的1/3.
 
+> Update 2018-01-21:
+>
+> 目前新版的`hexo-generator-search`插件模板文件位置有所改变，改为了`templates/xml.ejs`文件，修改方法不变。
 
-## **界面结构及样式**
+
+## 界面结构及样式
 
 ### 添加HTML代码
 
