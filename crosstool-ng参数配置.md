@@ -88,7 +88,7 @@ Floating point: (software (no FPU))
 ----------
 
 配置好的界面：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/20160615172011.png)
+![](http://gmf.shengnengjin.cn/20160615172011.png)
 
 
 ## **Toolchain options**
@@ -116,7 +116,7 @@ Floating point: (software (no FPU))
 ----------
 
 配置好的界面：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/20160615220831.png)
+![](http://gmf.shengnengjin.cn/20160615220831.png)
 
 ## **Operating System**
 重要配置参数如下：
@@ -145,7 +145,7 @@ Linux kernel版本，可以从列表中选择，也可以自定义一个tar包�
 ----------
 
 配置好的界面：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/20160615223725.png)
+![](http://gmf.shengnengjin.cn/20160615223725.png)
 
 ## **Binary utilities**
 使用默认配置，重要配置参数如下：

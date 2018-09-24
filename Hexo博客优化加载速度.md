@@ -26,7 +26,7 @@ deploy:
 Github与Gitcafe使用的SSH RSA公钥必须相同。
 
 部署完成后，需要配置DNS多线路解析，以DNSPod为例，添加如下主机记录即可：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/web20151101141232.png)
+![](http://gmf.shengnengjin.cn/web20151101141232.png)
 Github与Gitcafe均使用了官方推荐的CNAME方式进行解析。
 
 ## 优化Mathjax

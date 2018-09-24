@@ -7,7 +7,7 @@ categories: 杂七杂八
 
 Java中提供了丰富的容器类用于存储数据，这些容器类可分为两大类：Collection和Map，Collection用于保存单个元素，而Map则以键值对的形式进行存储，就像一个小型数据库一样。Collection中又可分为List、Set、Queue三类，其中List是列表，Set是集合，Queue是队列。整个Java集合框架的结构图如下：
 
-![](http://7xnwyt.com1.z0.glb.clouddn.com/Java%20Collections%20Framework2.png)
+![](http://gmf.shengnengjin.cn/Java%20Collections%20Framework2.png)
 
 <!--more-->
 

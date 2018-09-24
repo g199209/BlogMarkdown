@@ -12,9 +12,9 @@ STM8系列单片机通过SWIM接口进行程序下载与Debug，这是一个单�
 <!--more-->
 
 ST-Link/V2中SWIM接口的定义如下：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/CircuitST-LINK-V2-Interface_SWIM_200.jpg)
+![](http://gmf.shengnengjin.cn/CircuitST-LINK-V2-Interface_SWIM_200.jpg)
 
 其中的VDD可以不接，从STM8L-Discovery开发板上提供的ST-Link上来看，VDD直接通过一个10k的电阻接地了：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/Circuit20151206133333.png-height2)
+![](http://gmf.shengnengjin.cn/Circuit20151206133333.png-height2)
 
 另外，从中可以看到，仿真器部分已经在SWIM上加上了上拉电阻，故目标板上并不需要加上拉电阻，直接和单片机SWIM口连接即可。

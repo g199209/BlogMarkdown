@@ -35,7 +35,7 @@ date: 2016-10-25 15:59:31
 
 另一种高效的方法是使用字典HashMap，仅需一次循环即可，算法复杂度O(n)。以题目中的Example为例，算法原理可用下图说明：
 
-![](http://7xnwyt.com1.z0.glb.clouddn.com/20161025161036.png)
+![](http://gmf.shengnengjin.cn/20161025161036.png)
 
 添加到`Map`中的元素是将数组中元素值`Number`作为`Key`，而对应的数组的索引值`Index`作为`Value`的。循环过程中，先判断此数字在`Map`中是否存在，若不存在的话，将其互补元素（即`target` - `nums[i]`）添加到`Map`中，对应的值即为**当前的**`i`值；若存在的话，返回当前`i`值与`Map[nums[i]]`的值即可。具体实现见下面C++及Java版本的代码。
 

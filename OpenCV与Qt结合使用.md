@@ -33,7 +33,7 @@ Qt 5.7
 
 需要注意的是，CMake配置时有一个`WITH_QT`选项，这个选项是指OpenCV的`highgui`模块本身是否使用Qt，似乎可以不选这个选项的。如果选择了`WITH_QT`，点击`Configure`后会出现新的Qt相关路径的选项，如果Qt安装正常的话，这里的路径是会自动生成的：
 
-![](http://7xnwyt.com1.z0.glb.clouddn.com/20161209223450.png)
+![](http://gmf.shengnengjin.cn/20161209223450.png)
 
 点击`Generate`后会出现很多如下warning：
 
@@ -51,7 +51,7 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 
 选择了`WITH_QT`后，`highgui`本身的窗口界面会变成基于Qt的，比原来要好看一些，而且自动集成了一些图片缩放、保存等功能：
 
-![](http://7xnwyt.com1.z0.glb.clouddn.com/20161209224409.png-width600)
+![](http://gmf.shengnengjin.cn/20161209224409.png-width600)
 
 不过这还是满足不了我们自由设计GUI界面的需求，接下来就要讨论如何在Qt项目中使用OpenCV。
 

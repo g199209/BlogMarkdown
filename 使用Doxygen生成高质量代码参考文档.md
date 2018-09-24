@@ -17,7 +17,7 @@ Doxygen支持的语言有很多，常用的有C/C++、Java、Python等；可以�
 
 ## **定义功能模块**
 STM32F0xx_StdPeriph_Driver是按照功能模块进行组织的，每个功能模块有其对应的头文件与源文件。功能模块列表如下：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/Doxygen20151112222545.png)
+![](http://gmf.shengnengjin.cn/Doxygen20151112222545.png)
 为了让Doxygen能正确提取模块定义，需添加模块定义注释。在文件中加入：
 ``` C
 /** @addtogroup ADC 
@@ -73,7 +73,7 @@ STM32F0xx_StdPeriph_Driver是按照功能模块进行组织的，每个功能模
   */ 
 ```
 以上代码段中定义了一个名为`ADC_Exported_Constants`的模块，此模块包含了ADC模块中所有的宏定义。在`ADC_Exported_Constants`模块中，又有若干个子模块，如`ADC_JitterOff`，`ADC_Resolution`等。它们的关系可以参考下图：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/Doxygengroup___a_d_c___exported___constants.png)
+![](http://gmf.shengnengjin.cn/Doxygengroup___a_d_c___exported___constants.png)
 这样组织代码可以让大的量宏定义结构更为清晰，而且有利于在其它地方进行交叉引用。
 
 ## **定义函数子模块**
@@ -110,7 +110,7 @@ void ADC_WaitModeCmd(ADC_TypeDef* ADCx, FunctionalState NewState){}
   */ 
 ```
 以上代码在实际代码的基础上进行了精简，仅保留了进行模块定义的基本结构。代码段中定义了一个名为`ADC_Private_Functions`的模块，此模块中包含了所有的函数定义，并且各函数按用途进行了分组，分为了若干个子模块，如`Initialization and Configuration functions`，`Power saving functions`等。关系示意图如下：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/Doxygengroup___a_d_c___private___functions.png)
+![](http://gmf.shengnengjin.cn/Doxygengroup___a_d_c___private___functions.png)
 
 ## **结构体注释说明**
 对于结构体，一般使用如下形式的注释：
@@ -148,7 +148,7 @@ typedef struct
 另外，注意到其中`@ref`标签的使用，这代表交叉引用。如`@ref ADC_Resolution`，实际会生成一个超链接指向之前定义的`ADC_Resolution`模块。这里的交叉引用可以为模块名、函数名、结构体等。
 
 以上代码段提取出的文档效果见下图：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/Doxygen20151113211950.png)
+![](http://gmf.shengnengjin.cn/Doxygen20151113211950.png)
 
 枚举的注释形式与结构体完全相同，可参照以上示例进行注释。
 
@@ -178,7 +178,7 @@ uint32_t ADC_GetCalibrationFactor(ADC_TypeDef* ADCx){}
 使用`@brief`简要说明函数的作用；使用`@param`说明输入参数，若输入参数是有限的几个值，可用`@arg`进行列举；使用`@retval`说明函数的返回值。另外，一些需要特别注意的地方可以使用`@note`，`@warning`进行说明。
 
 以上代码段提取出的文档效果见下图：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/Doxygen20151113212310.png)
+![](http://gmf.shengnengjin.cn/Doxygen20151113212310.png)
 
 ## **文件头**
 每个文件的开头部分一般都需要添加一个对此文件的说明，可使用如下格式：

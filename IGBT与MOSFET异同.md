@@ -11,7 +11,7 @@ categories: 硬件
 
 ## **电路符号** ##
 IGBT（Insulated Gate Bipolar Transistor, 绝缘闸双极晶体管）的电路符号如下：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/CircuitIGBT_SYMBOL.png)
+![](http://gmf.shengnengjin.cn/CircuitIGBT_SYMBOL.png)
 
 三个极分别称为：
 G：Gate，栅极
@@ -19,7 +19,7 @@ C：Collector，集电极
 E：Emitter，发射极
 
 MOSFET（Metal-Oxide-Semiconductor Field-Effect Transistor, 金属氧化物半导体场效应管）的电路符号如下：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/CircuitMOSFET_Symbol.png)
+![](http://gmf.shengnengjin.cn/CircuitMOSFET_Symbol.png)
 
 三个极分别称为：
 G：Gate，栅极
@@ -28,14 +28,14 @@ S：Source，源极
 
 ## **结构** ##
 IGBT与MOSFET的结构对比如下：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/Circuit0514_WTDrenesas_FO.gif)
+![](http://gmf.shengnengjin.cn/Circuit0514_WTDrenesas_FO.gif)
 
 从结构上来说，**IGBT可以视为一个MOSFET与一个三极管的组合**，即可用下面这个等效电路来表示：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/Circuit20160111223222.png)
+![](http://gmf.shengnengjin.cn/Circuit20160111223222.png)
 
 ## **应用特性** ##
 一言以蔽之：**IGBT高压高功率性能优越，而MOSFET高频性能优越**，见下图：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/Circuit20160111223914.png)
+![](http://gmf.shengnengjin.cn/Circuit20160111223914.png)
 
 ## **控制方法** ##
 二者的驱动电路基本完全相同，可以相互替换。

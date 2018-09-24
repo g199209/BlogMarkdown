@@ -9,4 +9,4 @@ FPGA开发中未使用的引脚一般需要配置为输入悬空状态，即“A
 
 <!--more-->
 
-![](http://7xnwyt.com1.z0.glb.clouddn.com/FPGA20160112.gif)
+![](http://gmf.shengnengjin.cn/FPGA20160112.gif)

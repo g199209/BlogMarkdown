@@ -15,7 +15,7 @@ categories: 编程
 - **双目运算符中，算数运算高于移位，高于大于小于，高于==及！=，高于位运算，高于逻辑运算**
 
 比较容易出错的有下面这些：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/1-120205192420113.jpg)
+![](http://gmf.shengnengjin.cn/1-120205192420113.jpg)
 
 
 

@@ -126,7 +126,7 @@ service isc-dhcp-server restart
 
 ## 通过VPN拨号连接校园网
 
-根据学校网络中心的[说明文件](http://7xnwyt.com1.z0.glb.clouddn.com/%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6L2TP%20Linux%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AE%E6%89%8B%E5%86%8C.doc)配置即可。
+根据学校网络中心的[说明文件](http://gmf.shengnengjin.cn/%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6L2TP%20Linux%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AE%E6%89%8B%E5%86%8C.doc)配置即可。
 
 ### 配置静态IP
 

@@ -71,7 +71,7 @@ cp s3c2410_nand.c s3c2440_nand.c
 ```
 
 以上宏定义的值是根据2440的数据手册确定的，比如NFCONT寄存器的定义如下：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/20160624155451.png)
+![](http://gmf.shengnengjin.cn/20160624155451.png)
 
 
 再来看时序设置，程序中有这么一段：
@@ -95,7 +95,7 @@ cp s3c2410_nand.c s3c2440_nand.c
 #define CONFIG_S3C24XX_TWRPH1       0
 ```
 宏定义值根据Flash芯片数据手册确定，以开发板上使用的K9F2G08U0B为例，从它的数据手册中可以查到：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/20160624193738.png)
+![](http://gmf.shengnengjin.cn/20160624193738.png)
 
 具体变量间的对应关系可对比其时序图得到，这里就不展开了。这几个量的值会影响读写速度，需要仔细对照数据手册才能确定最优值，以取得最佳的读写性能，充分发挥出硬件的潜力。
 

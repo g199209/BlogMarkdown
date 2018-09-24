@@ -23,7 +23,7 @@ IQmath的官方使用手册为`SPRC990 C28x IQmath Library`，在ControlSUITE中
 
 在C2000中，统一使用32位来表示。Q*N*格式对应数据类型为_iq*N*，表示使用*N*位来表示小数，其余32-*N*位表示整数，故Q0其实就是一般的32位整数。具体的Q1~Q30的取值范围及精度见下表：
 
-![](http://7xnwyt.com1.z0.glb.clouddn.com/20160515095003.png)
+![](http://gmf.shengnengjin.cn/20160515095003.png)
 
 `_iq`类型代表使用`GLOBAL_Q`定义的精度，`GLOBAL_Q`在`IQmathLib.h`文件中定义，默认为：
 
@@ -91,4 +91,4 @@ IQmath的官方使用手册为`SPRC990 C28x IQmath Library`，在ControlSUITE中
 
 ### Benchmark
 完整的IQmath函数及性能评估表如下：
-![](http://7xnwyt.com1.z0.glb.clouddn.com/20160515101508.png)
+![](http://gmf.shengnengjin.cn/20160515101508.png)

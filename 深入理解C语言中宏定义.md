@@ -37,7 +37,7 @@ date: '2017-10-06 20:15'
 
 宏的展开过程遵循以下流程图：
 
-![](http://7xnwyt.com1.z0.glb.clouddn.com/Macro_Expand3.svg)
+![](http://gmf.shengnengjin.cn/Macro_Expand3.svg)
 
 这个流程图是我根据自己的理解和实验画出来的，并不确定完全正确……图中的“已展开宏记录”就是文章中说的“蓝色列表”。
 
