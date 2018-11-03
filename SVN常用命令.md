@@ -3,8 +3,8 @@ permalink: SVN
 toc: true
 mathjax: false
 fancybox: false
-tags: [工具, Linux]
-categories: 杂七杂八
+tags: [SVN]
+categories: 工具之术
 date: 2017-03-30 16:12:08
 
 ---

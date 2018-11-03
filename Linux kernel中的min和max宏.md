@@ -3,13 +3,10 @@ permalink: Kernel_min_max_macro
 toc: false
 mathjax: false
 fancybox: false
-tags:
-  - C语言
-  - Linux
-categories:
-  - 嵌入式
-  - 编程
+tags: [Kernel, C]
+categories: 编程之法
 date: '2017-10-08 16:38'
+
 ---
 
 `min`和`max`是两个很常用的操作，一般都是用宏实现的，不过想要写出一个很完善的宏定义还是要考虑很多问题的，本文就来分析下Linux Kernel中的实现方法。文中仅考虑`min`，`max`的结构与其完全相同，只要修改下大于小于号即可。

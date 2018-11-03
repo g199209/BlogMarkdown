@@ -1,7 +1,7 @@
 title: crosstool-ng的安装
 date: 2016-06-14 15:36:34
-tags: [Linux, 工具]
-categories: 嵌入式
+tags: [Linux, Compiler]
+categories: 工具之术
 
 ---
 

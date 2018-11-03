@@ -3,8 +3,8 @@ permalink: SSH_Authentication
 toc: true
 mathjax: false
 fancybox: false
-tags: [Linux, 工具]
-categories: 杂七杂八
+tags: [Linux]
+categories: 工具之术
 date: 2017-03-01 22:34:37
 
 ---

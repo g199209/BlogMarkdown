@@ -3,11 +3,10 @@ permalink: SSH_Forwarding
 toc: false
 mathjax: false
 fancybox: false
-tags:
-  - 工具
-categories:
-  - 杂七杂八
+tags: [Linux, Network]
+categories: 工具之术
 date: '2017-11-04 00:16'
+
 ---
 
 学校的网络位于无数重NAT内网中，而且还有各种VPN，所以想要从外网访问十分困难，之前试过各种方法都没成功。今天偶然看到了SSH反向穿透的方法，因为我访问内网服务器主要也是需要SSH连接功能，故此方法可以很好的满足我的需求。此处记录下配置方法。

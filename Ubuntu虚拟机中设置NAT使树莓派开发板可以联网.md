@@ -3,8 +3,8 @@ permalink: Ubuntu_NAT_Raspberry
 toc: true
 mathjax: false
 fancybox: false
-tags: [Linux, 树莓派]
-categories: 嵌入式
+tags: [Linux, Raspberry Pi, Network]
+categories: 工具之术
 date: 2016-11-01 21:05:07
 
 ---

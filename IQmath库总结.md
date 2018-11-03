@@ -1,7 +1,7 @@
 title: C28x IQmath库使用
 date: 2016-05-15 14:21:27
 tags: [DSP]
-categories: 科研
+categories: 科研之路
 
 ---
 

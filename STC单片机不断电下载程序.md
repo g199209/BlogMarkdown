@@ -1,7 +1,7 @@
 title: STC单片机不断电下载程序
 date: 2015-12-10 16:51:44
 tags: [MCS-51]
-categories: 嵌入式
+categories: 编程之法
 
 ---
 

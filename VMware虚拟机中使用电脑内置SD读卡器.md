@@ -3,8 +3,8 @@ permalink: VMware_Internal_SD
 toc: false
 mathjax: false
 fancybox: false
-tags: [工具, Linux]
-categories: 嵌入式
+tags: [Linux]
+categories: 工具之术
 date: 2016-12-28 15:19:19
 
 ---

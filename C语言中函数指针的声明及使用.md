@@ -1,7 +1,7 @@
 title: C语言中函数指针的声明及使用
 date: 2016-04-21 15:58:46
-tags: [C语言, Top]
-categories: 编程
+tags: [C]
+categories: 编程之法
 
 ---
 

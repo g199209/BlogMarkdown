@@ -1,8 +1,8 @@
 title: C语言生成随机数
 date: 2015-11-16 20:22:19
 toc: false
-tags: [C语言, 算法]
-categories: 编程
+tags: [C, Number Theory]
+categories: 编程之法
 
 ---
 

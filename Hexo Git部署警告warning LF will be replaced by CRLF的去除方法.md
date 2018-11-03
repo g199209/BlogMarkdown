@@ -3,8 +3,8 @@ permalink: Hexo_Git_CRLF
 toc: false
 mathjax: false
 fancybox: false
-tags: [Web]
-categories: 杂七杂八
+tags: [Blog]
+categories: 工具之术
 date: 2017-01-13 20:24:11
 
 ---

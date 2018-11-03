@@ -4,7 +4,7 @@ toc: true
 mathjax: false
 fancybox: false
 tags: [OpenCV]
-categories: 科研
+categories: 工具之术
 date: 2016-12-06 21:54:42
 
 ---

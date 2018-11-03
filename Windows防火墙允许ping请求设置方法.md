@@ -3,8 +3,8 @@ permalink: Windows_Ping
 toc: false
 mathjax: false
 fancybox: false
-tags: [工具]
-categories: 嵌入式
+tags: [Network]
+categories: 工具之术
 date: 2016-10-27 19:20:41
 
 ---

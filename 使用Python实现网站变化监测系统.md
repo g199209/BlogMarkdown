@@ -1,7 +1,7 @@
 title: 使用Python实现网站变化监测系统
 date: 2016-07-26 21:19:38
-tags: [Python, Web, Top]
-categories: 杂七杂八
+tags: [Python, Spider, Top]
+categories: 编程之法
 
 ---
 

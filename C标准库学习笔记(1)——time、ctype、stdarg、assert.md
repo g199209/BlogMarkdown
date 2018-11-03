@@ -1,7 +1,7 @@
 title: C标准库学习笔记(1)——time、ctype、stdarg、assert
 date: 2016-08-02 21:24:39
-tags: [C语言, Top]
-categories: 编程
+tags: [C, Top]
+categories: 软件之道
 
 ---
 

@@ -1,7 +1,7 @@
 title: HTTP中确定报文结束的方法
 date: 2016-04-14 10:41:10
-tags: [Network]
-categories: 编程
+tags: [Socket, HTTP]
+categories: 编程之法
 
 ---
 

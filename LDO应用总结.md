@@ -3,8 +3,8 @@ permalink: LDO
 toc: true
 mathjax: true
 fancybox: true
-tags: [Top, 元器件]
-categories: 硬件
+tags: [HW Component]
+categories: 硬件之理
 date: 2017-06-12 23:33:16
 
 ---

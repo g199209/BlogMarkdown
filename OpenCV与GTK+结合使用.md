@@ -4,7 +4,7 @@ toc: false
 mathjax: false
 fancybox: false
 tags: [OpenCV]
-categories: 科研
+categories: 编程之法
 date: 2017-06-01 22:55:41
 
 ---

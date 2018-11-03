@@ -3,8 +3,8 @@ permalink: Data_Structure_AVLTree
 toc: true
 mathjax: false
 fancybox: false
-tags: [算法]
-categories: 编程
+tags: [Data Struct]
+categories: 算法之美
 date: 2017-02-11 17:00:18
 
 ---

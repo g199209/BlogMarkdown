@@ -3,9 +3,8 @@ permalink: sizeof_extern_array
 toc: false
 mathjax: false
 fancybox: false
-tags:
-  - C语言
-categories: 编程
+tags: [C]
+categories: 编程之法
 date: 2018-06-30 16:52:12
 
 ---

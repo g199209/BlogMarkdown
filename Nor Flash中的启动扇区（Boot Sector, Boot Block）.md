@@ -1,7 +1,7 @@
 title: Nor Flash中的启动扇区（Boot Sector, Boot Block）
 date: 2016-06-23 01:04:50
-tags: []
-categories: 嵌入式
+tags: [Flash]
+categories: 点滴之间
 
 ---
 

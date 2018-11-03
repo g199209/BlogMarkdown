@@ -1,7 +1,7 @@
 title: OpenCV 3.0安装
 date: 2015-12-08 00:18:12
 tags: [OpenCV]
-categories: 科研
+categories: 工具之术
 
 ---
 

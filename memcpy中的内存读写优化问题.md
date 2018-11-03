@@ -3,8 +3,8 @@ permalink: Memcpy_Optimization
 toc: false
 mathjax: false
 fancybox: false
-tags: [算法]
-categories: 嵌入式
+tags: [Performance, Top]
+categories: 软件之道
 date: 2017-08-15 23:00:00
 
 ---

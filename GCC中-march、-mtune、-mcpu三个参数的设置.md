@@ -1,7 +1,7 @@
 title: GCC中-march、-mtune、-mcpu三个参数的设置
 date: 2016-06-15 16:52:42
-tags: [Linux, 工具, Top]
-categories: 嵌入式
+tags: [Linux, Compiler, Top]
+categories: 工具之术
 
 ---
 

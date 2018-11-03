@@ -4,7 +4,7 @@ toc: true
 mathjax: false
 fancybox: false
 tags: [OpenCV, Qt]
-categories: 科研
+categories: 编程之法
 date: 2016-12-10 22:32:18
 
 ---

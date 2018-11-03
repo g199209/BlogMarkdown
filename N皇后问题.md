@@ -3,8 +3,8 @@ permalink: N_Queen_Problem
 toc: false
 mathjax: false
 fancybox: false
-tags: [算法]
-categories: 编程
+tags: []
+categories: 算法之美
 date: 2016-11-22 22:39:36
 
 ---

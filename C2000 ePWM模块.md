@@ -2,7 +2,7 @@ title: C2000 ePWM模块
 date: 2015-12-24 23:09:48
 tags: [DSP]
 fancybox: false
-categories: 嵌入式
+categories: 科研之路
 
 ---
 

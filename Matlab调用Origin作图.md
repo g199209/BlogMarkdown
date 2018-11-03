@@ -1,7 +1,7 @@
 title: Matlab调用Origin作图
 date: 2016-01-28 21:23:24
 tags: [Matlab]
-categories: 科研
+categories: 工具之术
 
 ---
 

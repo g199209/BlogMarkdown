@@ -1,7 +1,7 @@
 title: U-Boot 2016.05 在S3C2440上的移植（1）——基本运行
 date: 2016-06-19 17:12:00
 tags: [Linux, Bootloader]
-categories: 嵌入式
+categories: 编程之法
 
 ---
 

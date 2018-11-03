@@ -3,8 +3,8 @@ permalink: PMSM_Vector_Control
 toc: true
 mathjax: false
 fancybox: true
-tags: [DSP, 电机, Top]
-categories: 科研
+tags: [DSP, Motor, Top]
+categories: 科研之路
 date: 2016-11-14 14:47:04
 
 ---

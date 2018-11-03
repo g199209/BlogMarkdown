@@ -3,8 +3,8 @@ permalink: Linux_Vim_Compile
 toc: true
 mathjax: false
 fancybox: false
-tags: [Linux]
-categories: 杂七杂八
+tags: [Linux, Vim]
+categories: 工具之术
 date: 2017-01-17 17:01:27
 
 ---

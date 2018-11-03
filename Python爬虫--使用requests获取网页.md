@@ -1,7 +1,7 @@
 title: Python爬虫--使用requests获取网页
 date: 2016-06-03 22:08:49
-tags: [Python]
-categories: 编程
+tags: [Python, Spider]
+categories: 编程之法
 
 ---
 
@@ -106,7 +106,6 @@ r = requests.get(url, headers = header)
 s = requests.Session()
 ```
 会话对象`s`具有主要的Requests API的所有方法。会话一般用于连续发起一系列请求的时候使用，它会自动处理cookies的问题，十分方便。
-
 
 ----------
 

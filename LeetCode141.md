@@ -3,8 +3,8 @@ permalink: LeetCode_141
 toc: true
 mathjax: false
 fancybox: false
-tags: [算法]
-categories: 编程
+tags: [Online Judge]
+categories: 算法之美
 date: 2016-10-24 17:41:59
 
 ---
@@ -85,4 +85,5 @@ public class Solution {
 ## 相关题目
 
 > [LeetCode 142. Linked List Cycle II (Medium)](/2016/10/24/LeetCode_142/)
+>
 > > [LeetCode 160. Intersection of Two Linked Lists (Easy)](/2016/10/25/LeetCode_160/)

@@ -3,8 +3,8 @@ permalink: apt_apt-get
 toc: false
 mathjax: false
 fancybox: false
-tags: [Linux, 工具]
-categories: 杂七杂八
+tags: [Linux]
+categories: 工具之术
 date: 2016-10-25 13:49:16
 
 ---

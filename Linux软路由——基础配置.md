@@ -3,8 +3,8 @@ permalink: Linux_SoftRouter_Basic
 toc: true
 mathjax: false
 fancybox: false
-tags: [Linux]
-categories: 杂七杂八
+tags: [Linux, TCP/IP, Network]
+categories: 工具之术
 date: 2017-04-25 21:21:21
 
 ---
@@ -17,7 +17,7 @@ date: 2017-04-25 21:21:21
 
 ## 设置无线AP
 
-使用的设备是TP-Link TL-WDN4800，配合`hostapd`实现软AP功能，实现方法参考一下几篇文章：
+使用的设备是TP-Link TL-WDN4800，配合`hostapd`实现软AP功能，实现方法参考以下几篇文章：
 
 > [linux软AP－－hostapd+dhcpd](http://www.361way.com/hostapd-soft-ap/2933.html)
 > [My Wi-Fi access point revisited](https://blog.kylemanna.com/linux/wifi-hostapd/)
@@ -182,7 +182,7 @@ g199209@a * 00000000 *
 ### 启动服务与停止服务
 
 连接：
-   
+
 ```bash
 service xl2tpd start
 echo 'c ZJU_VPN' > /var/run/xl2tpd/l2tp-control

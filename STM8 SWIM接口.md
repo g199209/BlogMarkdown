@@ -1,7 +1,7 @@
 title: STM8 SWIM接口
 date: 2015-12-06 13:15:23
 tags: [STM8]
-categories: 嵌入式
+categories: 硬件之理
 
 ---
 

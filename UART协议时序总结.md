@@ -1,7 +1,7 @@
 title: UART协议时序总结
 date: 2016-07-12 20:31:15
-tags: [协议]
-categories: 嵌入式
+tags: [Small Protocol]
+categories: 点滴之间
 
 ---
 

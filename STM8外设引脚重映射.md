@@ -1,7 +1,7 @@
 title: STM8外设引脚重映射
 date: 2015-12-21 15:26:15
 tags: [STM8]
-categories: 嵌入式
+categories: 编程之法
 
 ---
 

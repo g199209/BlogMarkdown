@@ -3,8 +3,8 @@ permalink: Raspberry_Pi_Static_IP
 toc: false
 mathjax: false
 fancybox: false
-tags: [树莓派, Linux]
-categories: 嵌入式
+tags: [Raspberry Pi, Linux, Network]
+categories: 工具之术
 date: 2016-10-27 21:31:39
 
 ---

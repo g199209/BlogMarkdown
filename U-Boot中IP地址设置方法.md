@@ -1,7 +1,7 @@
 title: U-Boot中IP地址设置方法
 date: 2016-05-30 23:13:35
 tags: [Bootloader]
-categories: 嵌入式
+categories: 工具之术
 
 ---
 

@@ -1,7 +1,7 @@
 title: OpenSSH使用多个私钥（SSH Key）配置
 date: 2016-06-17 21:40:07
-tags: [工具]
-categories: 杂七杂八
+tags: [Linux]
+categories: 工具之术
 
 ---
 

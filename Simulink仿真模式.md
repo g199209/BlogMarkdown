@@ -1,7 +1,7 @@
 title: Simulink仿真模式
 date: 2015-12-23 16:25:37
 tags: [Matlab]
-categories: 科研
+categories: 工具之术
 
 ---
 

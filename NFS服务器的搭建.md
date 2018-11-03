@@ -1,7 +1,7 @@
 title: NFS服务器的搭建
 date: 2016-05-30 23:19:59
-tags: [工具, Linux]
-categories: 嵌入式
+tags: [Linux, Network]
+categories: 工具之术
 
 ---
 

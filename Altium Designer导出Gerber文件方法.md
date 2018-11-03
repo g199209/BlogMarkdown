@@ -1,7 +1,7 @@
 title: Altium Designer导出Gerber文件方法
 date: 2016-03-04 20:05:35
-tags: [工具]
-categories: 硬件
+tags: [EDA]
+categories: 工具之术
 
 ---
 

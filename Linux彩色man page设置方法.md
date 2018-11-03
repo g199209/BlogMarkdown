@@ -4,7 +4,7 @@ toc: false
 mathjax: false
 fancybox: false
 tags: [Linux]
-categories: 杂七杂八
+categories: 工具之术
 date: 2017-01-13 19:08:36
 
 ---

@@ -4,9 +4,9 @@ toc: false
 mathjax: false
 fancybox: false
 tags:
-  - 工具
+  - Editor
 categories:
-  - 杂七杂八
+  - 工具之术
 date: '2017-09-06 22:51'
 ---
 

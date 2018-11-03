@@ -1,7 +1,7 @@
 title: Android中实现多线程的方法
 date: 2016-05-24 14:49:41
-tags: [Android, 并发]
-categories: 杂七杂八
+tags: [Android, Concurrent]
+categories: 编程之法
 
 ---
 

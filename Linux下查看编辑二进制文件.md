@@ -1,7 +1,7 @@
 title: Linux下查看编辑二进制文件
 date: 2016-07-06 11:34:39
-tags: [Linux, 工具]
-catelogies: 嵌入式
+tags: [Linux]
+catelogies: 工具之术
 
 ---
 

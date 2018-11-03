@@ -3,8 +3,8 @@ permalink: VMWare_Ubuntu_Terminal_Shadowsocks
 toc: false
 mathjax: false
 fancybox: false
-tags: [工具, Linux]
-categories: 杂七杂八
+tags: [Linux]
+categories: 工具之术
 date: 2016-12-27 21:17:36
 
 ---

@@ -1,7 +1,7 @@
 title: 使用OpenMP进行多线程计算
 date: 2015-12-11 14:46:43
-tags: [并发]
-categories: 编程
+tags: [OpenMP, Concurrent]
+categories: 工具之术
 
 ---
 

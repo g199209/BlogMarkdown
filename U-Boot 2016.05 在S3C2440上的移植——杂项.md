@@ -1,7 +1,7 @@
 title: U-Boot 2016.05 在S3C2440上的移植——杂项
 date: 2016-06-26 21:23:14
 tags: [Bootloader]
-categories: 嵌入式
+categories: 工具之术
 
 ---
 

@@ -3,12 +3,10 @@ permalink: printf_format_string_attack
 toc: false
 mathjax: false
 fancybox: false
-tags:
-  - C语言
-  - Top
-categories:
-  - 嵌入式
+tags: [C,  Security, Top]
+categories: 软件之道
 date: '2017-09-20 21:58'
+
 ---
 
 前几天去Intel面试时，遇到了一个问题：`printf("%s", s)`与`printf(s)`有何区别？面试官还提示我从安全的角度回答这个问题，然而当时并没有想出答案来……:( 回来后仔细研究了下这个问题，才发现`pritnf(s)`这种写法是存在严重安全漏洞的，这被称为printf格式化字符串漏洞攻击。

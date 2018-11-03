@@ -1,7 +1,7 @@
 title: C语言标准库总结
 date: 2016-04-18 12:52:05
-tags: [C语言, Top]
-categories: 编程
+tags: [C, Top]
+categories: 编程之法
 
 ---
 

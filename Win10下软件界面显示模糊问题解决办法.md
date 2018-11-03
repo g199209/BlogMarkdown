@@ -3,11 +3,10 @@ permalink: Win10_Software_Font_Blur
 toc: false
 mathjax: false
 fancybox: false
-tags:
-  - 工具
-categories:
-  - 杂七杂八
+tags: [Debug]
+categories: 工具之术
 date: '2017-08-30 16:20'
+
 ---
 
 某些软件在使用过程中会出现显示显示模糊的问题，鼠标动一下或者点一下菜单显示又清晰起来。使用的系统是Win 10，笔记本显卡为GT 730M，开启了系统DPI缩放。遇到此问题的软件有：

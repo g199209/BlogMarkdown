@@ -1,7 +1,7 @@
 title: Origin Script Window 执行脚本代码的方法
 date: 2016-01-27 17:09:38
-tags: [工具]
-categories: 科研
+tags: []
+categories: 工具之术
 
 ---
 

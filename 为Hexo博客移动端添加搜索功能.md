@@ -3,8 +3,8 @@ permalink: Blog_Search_Mobile
 toc: true
 mathjax: false
 fancybox: true
-tags: [Web]
-categories: 杂七杂八
+tags: [Blog, Debug, Top]
+categories: 编程之法
 date: 2016-11-25 22:00:59
 
 ---

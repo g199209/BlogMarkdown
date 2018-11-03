@@ -1,7 +1,7 @@
 title: 在Android Studio中使用Lambda表达式
 date: 2016-09-26 10:53:34
-tags: [Android]
-categories: 杂七杂八
+tags: [Android, Java]
+categories: 编程之法
 
 ---
 

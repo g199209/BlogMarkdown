@@ -3,8 +3,8 @@ permalink: Allegro_Font
 toc: false
 mathjax: false
 fancybox: false
-tags: [工具]
-categories: 硬件
+tags: [EDA]
+categories: 工具之术
 date: 2017-05-14 10:54:01
 
 ---

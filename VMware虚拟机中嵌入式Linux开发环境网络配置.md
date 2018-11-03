@@ -1,7 +1,7 @@
 title: VMware虚拟机中嵌入式Linux开发环境网络配置
 date: 2016-06-25 21:27:00
-tags: [工具]
-categories: 嵌入式
+tags: [Linux, Network]
+categories: 工具之术
 
 ---
 

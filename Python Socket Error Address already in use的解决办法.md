@@ -1,7 +1,7 @@
 title: Python Socket Error： Address already in use的解决办法
 date: 2016-04-27 15:14:43
-tags: [Python, Network]
-categories: 编程
+tags: [Python, Socket, Debug]
+categories: 编程之法
 
 ---
 

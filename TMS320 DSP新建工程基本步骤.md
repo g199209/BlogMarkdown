@@ -1,7 +1,7 @@
 title: C2000 DSP新建工程基本步骤
 date: 2015-11-28 12:52:05
-tags: [DSP, 工具]
-categories: 嵌入式
+tags: [DSP]
+categories: 工具之术
 
 ---
 

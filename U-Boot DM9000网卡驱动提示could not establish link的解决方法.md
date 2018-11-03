@@ -1,7 +1,7 @@
 title: U-Boot DM9000网卡驱动提示"could not establish link"的解决方法
 date: 2016-06-26 21:37:18
-tags: [Bootloader]
-categories: 嵌入式
+tags: [Bootloader, Debug]
+categories: 编程之法
 
 ---
 

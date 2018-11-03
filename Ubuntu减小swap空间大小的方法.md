@@ -3,8 +3,8 @@ permalink: Ubuntu_Reduce_Swap
 toc: true
 mathjax: false
 fancybox: false
-tags: [Linux, 工具, Top]
-categories: 杂七杂八
+tags: [Linux, File System, Top]
+categories: 工具之术
 date: 2017-02-28 19:35:14
 
 ---

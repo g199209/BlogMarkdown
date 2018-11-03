@@ -1,7 +1,7 @@
 title: IGBT与MOSFET比较
 date: 2016-01-11 22:47:00
-tags: [电机, 元器件]
-categories: 硬件
+tags: [Motor, HW Component]
+categories: 硬件之理
 
 ---
 

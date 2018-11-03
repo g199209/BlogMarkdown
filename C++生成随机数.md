@@ -3,8 +3,8 @@ permalink: C++_Random
 toc: false
 mathjax: false
 fancybox: false
-tags: [算法]
-categories: 编程
+tags: [C++, Number Theory]
+categories: 编程之法
 date: 2017-03-22 15:42:55
 
 ---

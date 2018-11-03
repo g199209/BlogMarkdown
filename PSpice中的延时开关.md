@@ -3,8 +3,8 @@ permalink: PSpice_Swt
 toc: false
 mathjax: false
 fancybox: false
-tags: [工具]
-categories: 硬件
+tags: [PSpice]
+categories: 硬件之理
 date: 2017-05-05 16:20:23
 
 ---

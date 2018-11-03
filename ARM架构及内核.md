@@ -4,7 +4,7 @@ toc: true
 mathjax: false
 fancybox: false
 tags: [ARM]
-categories: 嵌入式
+categories: 工具之术
 date: 2016-10-20 15:28:56
 
 ---

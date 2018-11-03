@@ -1,8 +1,8 @@
 title: Markdown常用格式
 date: 2015-10-30 14:34:23
-tags: [Web, Top]
+tags: [Blog]
 mathjax: true
-categories: 杂七杂八
+categories: 工具之术
 
 ---
 

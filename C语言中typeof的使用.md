@@ -4,9 +4,9 @@ toc: false
 mathjax: false
 fancybox: false
 tags:
-  - C语言
+  - C
 categories:
-  - 编程
+  - 编程之法
 date: '2017-10-07 20:48'
 ---
 

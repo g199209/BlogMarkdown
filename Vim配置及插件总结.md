@@ -3,8 +3,8 @@ permalink: Vim_Plugin
 toc: true
 mathjax: false
 fancybox: false
-tags: [Linux]
-categories: 杂七杂八
+tags: [Linux, Editor]
+categories: 工具之术
 date: 2017-02-02 16:42:48
 
 ---
@@ -53,7 +53,7 @@ Plugin 'altercation/vim-colors-solarized'
 Solarized标准的背景色是深蓝色的，在其Github页面上可以看到效果示意图，不过实际使用下来我却始终无法调出这种背景色来。后面仔细研究了其配色代码，发现蓝色背景色是其针对Gvim的配色，而我是在终端中直接使用Vim的，这时候使用的配色方案背景色是深灰色。当然也可以设置为透明的，即使用终端背景色，不过其实深灰色我看着更舒服，就没有去把它改成蓝色了，只是对部分颜色进行了一些调整，最终得到了一个[定制版的Solarized主题](https://github.com/g199209/vim-colors-solarized)。
 
 最终的显示效果如下：
-  
+
 ![](http://gmf.shengnengjin.cn/20170117234815.png-width600)
 
 ### [Airline](https://github.com/vim-airline/vim-airline)

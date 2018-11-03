@@ -3,8 +3,8 @@ permalink: LeetCode_415
 toc: true
 mathjax: false
 fancybox: false
-tags: [算法]
-categories: 编程
+tags: [Online Judge]
+categories: 算法之美
 date: 2016-10-24 14:50:19
 
 ---

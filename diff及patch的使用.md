@@ -3,8 +3,8 @@ permalink: Diff_Patch
 toc: true
 mathjax: false
 fancybox: false
-tags: [Linux, 工具]
-categories: 嵌入式
+tags: [Linux]
+categories: 工具之术
 date: 2016-10-19 00:42:01
 
 ---

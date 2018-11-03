@@ -1,7 +1,7 @@
 title: OSI模型总结
 date: 2015-11-23 22:52:05
 tags: [Network, Top]
-categories: 科研
+categories: 软件之道
 
 ---
 

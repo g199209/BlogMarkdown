@@ -3,8 +3,8 @@ permalink: VMware_Shrink_Linux
 toc: false
 mathjax: false
 fancybox: false
-tags: [工具, Linux]
-categories: 嵌入式
+tags: [Linux]
+categories: 工具之术
 date: 2017-01-03 23:10:02
 
 ---

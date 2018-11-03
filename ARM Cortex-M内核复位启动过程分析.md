@@ -1,7 +1,7 @@
 title: ARM Cortex-M内核复位启动过程分析
 date: 2016-04-27 20:14:29
-tags: [ARM, Top]
-categories: 嵌入式
+tags: [ARM, Bootrom, Top]
+categories: 软件之道
 
 ---
 

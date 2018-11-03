@@ -1,7 +1,7 @@
 title: Population Count算法
 date: 2016-02-24 18:38:19
-tags: [算法]
-categories: 编程
+tags: []
+categories: 算法之美
 
 ---
 

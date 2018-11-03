@@ -1,7 +1,7 @@
 title: 使用JLink为2440 NOR Flash下载程序
 date: 2015-10-31 14:30:38
-tags: [工具]
-categories: 嵌入式
+tags: [JTAG]
+categories: 工具之术
 
 ---
 

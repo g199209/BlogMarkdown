@@ -3,12 +3,10 @@ permalink: C_Macro
 toc: false
 mathjax: false
 fancybox: false
-tags:
-  - C语言
-  - Top
-categories:
-  - 编程
+tags: [C, Top]
+categories: 编程之法
 date: '2017-10-06 20:15'
+
 ---
 
 从本质上看，C语言中的宏定义实现的是一个文本替换的功能，似乎很简单的样子，然而这几天去看了下Linux Kernel源码中的各种宏定义，才发现一个宏定义竟然也可以有如此多的奇技淫巧……于是花了一天时间仔细研究了下宏的相关知识，此处整理总结下。
