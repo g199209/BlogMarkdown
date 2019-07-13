@@ -41,8 +41,14 @@ Your public key has been saved in /home/gmf/.ssh/id_rsa.pub.
 ```no-highlight
 RSAAuthentication yes
 PubkeyAuthentication yes
-AuthorizedKeysFile %h/.ssh/authorized_keys
+AuthorizedKeysFile .ssh/authorized_keys
 ```
+
+> Update 2019-07-13:
+>
+> 在CentOS 7.4及以上版本中，没有`RSAAuthentication`这一项配置了，也不需要去配置这个，可参考：
+>
+> [CentOS7.4配置SSH登录密码与密钥身份验证踩坑](https://www.cnblogs.com/Leroscox/p/9627809.html)
 
 在**保证可以用证书正常登录后**，可以禁用密码登录以提高安全性：
 
