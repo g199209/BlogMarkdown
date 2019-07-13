@@ -9,7 +9,7 @@ UART使用异步模式工作，不需要时钟信号，其一般格式为：**�
 
 8/N/1格式的时序图如下：
 
-![](http://gmf.shengnengjin.cn/UART%E6%97%B6%E5%BA%8F%E5%9B%BE.png)
+![](https://gmf.shengnengjin.cn/UART%E6%97%B6%E5%BA%8F%E5%9B%BE.png)
 
 <!--more-->
 

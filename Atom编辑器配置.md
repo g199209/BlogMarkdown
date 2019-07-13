@@ -30,7 +30,7 @@ Atom官方的使用手册见文末第一个参考资料链接。
 
 Windows下，使用`ctrl-shift-p`键即可打开命令面板，在这个命令面板中可以使用模糊搜索快速查找所需的命令，而无需像传统方式那样在层层菜单中寻找。如设置界面，可从菜单中的`File`->`Setting`打开，更快的方式是在命令面板中搜索`setting`，即可看到所需命令及其快捷键：
 
-![](http://gmf.shengnengjin.cn/TIM%E6%88%AA%E5%9B%BE20170827162506.png)
+![](https://gmf.shengnengjin.cn/TIM%E6%88%AA%E5%9B%BE20170827162506.png)
 
 ### 主题与字体
 

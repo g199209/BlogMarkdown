@@ -15,13 +15,13 @@ categories: 编程之法
 > Option bytes can also be modified "on the fly" by the application in IAP mode, except the ROP option that can only be modified in ICP mode (via SWIM).
 
 一般情况下可直接在IDE中设置"Option bytes"，如在IAR中：
-![](http://gmf.shengnengjin.cn/STM820151221155326.png)
+![](https://gmf.shengnengjin.cn/STM820151221155326.png)
 
 ## STM8L ##
 在STM8L中，同样可以通过修改"Option bytes"来完成一些引脚的重映射，不过除此之外，有些外设功能本身就对应到了多个引脚上，此时**可以通过SYSCFG寄存器来选择需要使用的引脚**。
 
 以STM8L051F3为例：
-![](http://gmf.shengnengjin.cn/STM820151221160054.png)
+![](https://gmf.shengnengjin.cn/STM820151221160054.png)
 此图中使用"[]"括起来的功能就是只能通过上文修改"Option bytes"的方法来进行重映射的功能，而其余功能的选择则可通过修改SYSCFG寄存器来完成，如Timer 2-channel 1可以选择PB0或PC5。
 
 SYSCFG寄存器的主要作用是进行引脚功能选择，其操作较为简单，直接根据参考手册中的说明设置所需的位即可。

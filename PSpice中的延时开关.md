@@ -17,7 +17,7 @@ date: 2017-05-05 16:20:23
 
 ### Sw_tOpen
 
-![](http://gmf.shengnengjin.cn/sw_topen.png)
+![](https://gmf.shengnengjin.cn/sw_topen.png)
 
 SPICE实现：
 
@@ -45,7 +45,7 @@ S1 1 2 3 0 Smod
 
 ### Sw_tClose
 
-![](http://gmf.shengnengjin.cn/sw_tclose.png)
+![](https://gmf.shengnengjin.cn/sw_tclose.png)
 
 SPICE实现：
 

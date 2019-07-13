@@ -14,9 +14,9 @@ categories: 工具之术
 
 ## **新建工程** ##
 打开CCS，菜单栏上找到`Project`->`New CCS Project...`。在弹出的对话框中选好DSP的型号及仿真器的型号，填入工程名称及工程位置，其余选项保持默认值即可。
-![](http://gmf.shengnengjin.cn/DSP20151128135049.png)
+![](https://gmf.shengnengjin.cn/DSP20151128135049.png)
 点击`Finish`后在Project Explorer中可以看到新建的工程
-![](http://gmf.shengnengjin.cn/DSP20151128135556.png)
+![](https://gmf.shengnengjin.cn/DSP20151128135556.png)
 
 
 ## **添加CMD文件** ##
@@ -24,11 +24,11 @@ categories: 工具之术
 
 首先，**将工程目录中已有的那个CMD文件删掉**；之后在菜单栏上找到`Project`->`Properties`进入工程属性设置界面。默认情况下，CCS已经为我们建立了两个Configuration，分别为Debug和Release，所以可以将Debug用于调试，程序下载至RAM中；Release用于发布，程序下载至Flash中。
 首先配置Debug，Configuration选择Debug，下方的Linker command file选择`****_RAM_lnk.cmd`，`****`是使用的DSP型号，如图所示：
-![](http://gmf.shengnengjin.cn/DSP20151128143648.png)
+![](https://gmf.shengnengjin.cn/DSP20151128143648.png)
 之后配置Release，Configuration选择Release，下方的Linker command file选择`F****.cmd`，`****`是使用的DSP型号，如图所示：
-![](http://gmf.shengnengjin.cn/DSP20151128143850.png)
+![](https://gmf.shengnengjin.cn/DSP20151128143850.png)
 配置完成后，选择Debug模式进行编译时`F****.cmd`文件会被排除掉；同理，选择Release模式进行编译时`****_RAM_lnk.cmd`文件会被排除掉。效果见下图：
-![](http://gmf.shengnengjin.cn/DSP20151128144431.png)
+![](https://gmf.shengnengjin.cn/DSP20151128144431.png)
 
 ----------
 
@@ -48,11 +48,11 @@ categories: 工具之术
 此文件可以从controlSUITE中找到，位于`\controlSUITE\device_support\f****\v***\DSP****_headers\cmd`路径下，其中`v***`代表固件库的版本，一般选用最新版。以本文使用的28031为例，具体路径就是`\controlSUITE\device_support\f2803x\v130\DSP2803x_headers\cmd`。
 
 需要注意的是，在添加文件的时候一般选择`Copy files`而不是`Link to files`，如图所示：
-![](http://gmf.shengnengjin.cn/DSP20151128145950.png)
+![](https://gmf.shengnengjin.cn/DSP20151128145950.png)
 
 ## **添加寄存器头文件** ##
 将`\controlSUITE\device_support\f****\v***\DSP****_headers\`中的`source\`与`include\`文件夹复制到工程目录下，将`include\`文件夹添加到包含路径中。**注意不要选择绝对路径**，而是使用`Workspace...`选择相对路径，如下图所示：
-![](http://gmf.shengnengjin.cn/DSP20151128152726.png)
+![](https://gmf.shengnengjin.cn/DSP20151128152726.png)
 
 刚刚添加的`include\`文件夹中包含的内容是对所有外设寄存器的结构体定义，这种方式TI称之为“Bit Field and Register-File Structure Approach”，与传统的“Traditional #define Approach”有所区别，使用起来会更为方便。关于这两种方式的具体说明与比较，TI在其应用报告"[Programming TMS320x28xx and 28xxx Peripherals in C/C++](http://www.ti.com/lit/an/spraa85d/spraa85d.pdf)"中有详细的论述。
 
@@ -94,7 +94,7 @@ categories: 工具之术
 ## **添加TI提供的一些例程文件** ##
 将`\controlSUITE\device_support\f****\v***\DSP****_common\`中的`source\`、`include\`与`lib\`文件夹复制到工程目录下，将`include\`文件夹添加到包含路径中。
 这些文件的具体作用参考`\controlSUITE\device_support\f****\v***\doc\`中的文档，可根据实际去除不需要的文件。在本项目中，最终的目录结构如图所示：
-![](http://gmf.shengnengjin.cn/DSP20151128190022.png)
+![](https://gmf.shengnengjin.cn/DSP20151128190022.png)
 
 ## **设置程序入口点** ##
 根据TI文档的说明，依次找到菜单栏的`Project`->`Properties`->`C2000 Linker`->`Symbol Management`，在`Program Entry Point -e`中输入程序入口点即可。TI文档中对此设置的说明如下：

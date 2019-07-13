@@ -16,7 +16,7 @@ date: 2017-05-14 10:54:01
 打开`Setup`->`User Preference...`，在左侧`Categories`中展开`Ui`->`Fonts`。右侧的设置中，`fontsize`代表字号，这是个负数，值越小字号越大，默认值是`-12`；`fontface`是字体；`fontweight`是用来控制加粗的，`500`代表粗体，`300`是不加粗字体，默认的`400`介于二者之间。
 
 
-![](http://gmf.shengnengjin.cn/20170514103643.png)
+![](https://gmf.shengnengjin.cn/20170514103643.png)
 
 确定保存后重启程序即可生效。
 

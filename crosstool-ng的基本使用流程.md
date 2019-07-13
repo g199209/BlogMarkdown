@@ -75,7 +75,7 @@ Now configured for "arm-unknown-linux-gnueabi"
 ct-ng menuconfig
 ```
 会进入下图这样的menuconfig配置界面：
-![](http://gmf.shengnengjin.cn/20160615105843.png)
+![](https://gmf.shengnengjin.cn/20160615105843.png)
 
 一般需要更改下路径，进入`Paths and misc options`，修改`Local tarballs directory` & `Prefix directory`。前者是下载的源码包存放的路径，后者是生成的交叉编译链存放的路径，将其改为之前在工作目录下新建的文件夹即可：
 ``` shell

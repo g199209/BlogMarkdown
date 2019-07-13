@@ -282,7 +282,7 @@ make all
 ```
 
 此处的设置参考2440数据手册中对`INTSUBMSK`寄存器的说明：
-![](http://gmf.shengnengjin.cn/20160618160432.png)
+![](https://gmf.shengnengjin.cn/20160618160432.png)
 
 ### 更改时钟设置
 

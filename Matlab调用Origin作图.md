@@ -21,10 +21,10 @@ Matlab调用Origin的示例程序位于`<Install Path>\Samples\COM Server and Cl
 最终找到的较好的解决方案是这样的：
 
 首先，用Origin生成一个空白模板工程，其中包含了基本的Worksheet结构及Graph样式，比如示例文件中提供的这个：
-![](http://gmf.shengnengjin.cn/Matlab20160128204513.png)
+![](https://gmf.shengnengjin.cn/Matlab20160128204513.png)
 
 这个模板工程需要保证只要向Worksheet中填入数据，Graph中就能生成所需的图，就像这样：
-![](http://gmf.shengnengjin.cn/Matlab20160128205045.png)
+![](https://gmf.shengnengjin.cn/Matlab20160128205045.png)
 
 这里的Worksheet和Graph可以不止有一个，不过一般情况下一个就足够了。
 

@@ -42,8 +42,8 @@ typedef struct Node_s {
 
 示意图：
 
-![](http://gmf.shengnengjin.cn/281624280475098.jpg)
-![](http://gmf.shengnengjin.cn/281625317193879.jpg)
+![](https://gmf.shengnengjin.cn/281624280475098.jpg)
+![](https://gmf.shengnengjin.cn/281625317193879.jpg)
 
 关于旋转的详细分析可参考[第一篇参考资料](http://www.cnblogs.com/skywang12345/p/3576969.html)，此处仅给出实现代码及简要思路。
 

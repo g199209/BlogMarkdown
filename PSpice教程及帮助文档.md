@@ -23,7 +23,7 @@ PSpice的教程在网上随便一搜就有一大堆，不过其实还是Cadence�
 
 打开Cadence帮助（按F1），在左侧导航栏中可以找到PSpice文件夹，这些就是PSpice相关帮助文档，可以在当前帮助浏览器中直接查看，也可通过菜单栏上的pdf按钮打开对应的pdf文件查看：
 
-![](http://gmf.shengnengjin.cn/20170505165654.png)
+![](https://gmf.shengnengjin.cn/20170505165654.png)
 
 下面列举几份比较有用的文档。
 
@@ -33,7 +33,7 @@ PSpice的教程在网上随便一搜就有一大堆，不过其实还是Cadence�
 
 在导航菜单中的名字叫做`PSpice Reference Guide`，这份文档其实是对SPICE本身的介绍，包括各种基本元件、分析方法、基本函数、SPICE语法等。实际上使用SPICE分析模拟电路的情况更多一些，故在需要时可以通过其中`Analog devices`部分查阅各种基础元件的模型：
 
-![](http://gmf.shengnengjin.cn/20170505170850.png)
+![](https://gmf.shengnengjin.cn/20170505170850.png)
 
 > Detailed descriptions of the simulation controls and analysis specifications, start-up option definitions, and a list of device types in the analog and digital model libraries. User interface commands are provided to instruct you on each of the screen commands.
 

@@ -12,11 +12,11 @@ categories: 编程之法
 <!--more-->
 
 首先要获取STC-ISP软件发送的数据，最简单的方法是通过虚拟串口软件配合串口助手即可看到所需的数据，结果如图所示：
-![](http://gmf.shengnengjin.cn/51MCU20151210163116.png)
+![](https://gmf.shengnengjin.cn/51MCU20151210163116.png)
 从中可以看到，STC-ISP会持续发送`0x7F`，直至单片机给出正确的响应，故程序中只需要接收到若干个连续的`0x7F`后进行软件复位即可。
 
 软件复位通过写IAP_CONTR寄存器实现，其定义如下：
-![](http://gmf.shengnengjin.cn/51MCU20151210164210.png)
+![](https://gmf.shengnengjin.cn/51MCU20151210164210.png)
 将第5、6两位置1即可实现软件复位且从系统ISP监控程序区启动的目的。
 
 下面给出具体实现代码：
@@ -43,4 +43,4 @@ void UART_ISR_Handle() interrupt 4 using 3
 ```
 
 **需要注意的是，STC-ISP软件中的最低波特率与最高波特率必须设置为相同的，且等于程序中配置好的波特率，不能使用自适应波特率。**比如下图中就将波特率固定为115200bps。
-![](http://gmf.shengnengjin.cn/51MCU20151210165012.png)
+![](https://gmf.shengnengjin.cn/51MCU20151210165012.png)
