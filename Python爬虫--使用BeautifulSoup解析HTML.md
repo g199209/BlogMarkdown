@@ -62,7 +62,7 @@ soup.title.string
 获取到的字符串不包括标签本身，另外注意需要仅当此标签不包含子标签时才能使用`.sting`属性。如果此标签包含其他子节点，可以使用`.contents`属性获取所有子节点：
 
 ``` python
-soup.head.contends
+soup.head.contents
 ```
 
 返回对象是一个List。如需获取父节点，使用`.parent`属性即可，除此之外，还有些用于获取兄弟节点的`.next_siblings`等方法，此处从略。
