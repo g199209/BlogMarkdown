@@ -64,7 +64,7 @@ int CountOne3(unsigned int num)
 
 ## 分支法
 思路类似二分法，两两相加后即可得到结果，见下图：
-![](https://gmf.shengnengjin.cn/Software2010060623161414.jpg)
+![](https://pic.gaomf.store/Software2010060623161414.jpg)
 在[详解二进制数中1的个数](http://github.tiankonguse.com/blog/2014/11/16/bit-count-more/)中对此有详细描述。此方法复杂度为Log(N)(之前几种方法复杂度均为N)，对于32位整数只需要计算5次即可。
 ```c
 char CountOne4(unsigned int num) 
@@ -110,6 +110,6 @@ POPCNT指令应该是有其实际重要作用的，比如在OpenCV的编译过�
 
 ## 执行时间对比
 毫无疑问，直接调用CPU指令是最佳的解决方案，将其执行时间规定为1，对其他算法的执行时间进行归一化处理，结果如下：
-![](https://gmf.shengnengjin.cn/20160224Graph.png-height)
+![](https://pic.gaomf.store/20160224Graph.png-height)
 
 从中可以看到，除了特别简单的情况下（如0x01），分枝法与三分法的执行效率是最好的，且这两种算法是稳定的算法，其执行时间不依赖于输入数据。逐次清除最低位1法在1的个数较少时也不失为一种好方法。

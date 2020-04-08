@@ -36,7 +36,7 @@ while True:
 
 然而，这段代码是无法正常工作的，运行之后使用浏览器访问`http://localhost/`，得到的结果是这样的：
 
-![](https://gmf.shengnengjin.cn/20160414085934.png)
+![](https://pic.gaomf.store/20160414085934.png)
 
 从Shell的输出结果来看，HTTP响应报文已经发送成功了，此时服务器已经在等待下一次请求了，而浏览器却始终处于`Connecting`状态中。
 
@@ -63,7 +63,7 @@ while True:
 ```
 
 修改后就可以正常运行了：
-![](https://gmf.shengnengjin.cn/20160414085607.png)
+![](https://pic.gaomf.store/20160414085607.png)
 
 如果不关闭TCP连接，也可以通过加上`Content-Length`字段来解决这一问题，代码如下：
 

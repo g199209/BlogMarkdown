@@ -85,7 +85,7 @@ reset:
 ## **start.S** ##
 
 `start.S`的执行流程见下图：
-![](https://gmf.shengnengjin.cn/U-Boot%20Stage1_1.svg)
+![](https://pic.gaomf.store/U-Boot%20Stage1_1.svg)
 
 `lowlevel_init`是平台相关的，故它位于`board/samsung/smdk2440/lowlevel_init.S`中。此处需要完成内存控制器的初始化工作，以便之后能正常使用SDRAM。对于S3C2440来说，就是初始化了`BWSCON`、`BANKCONn`、`REFRESH`、`BANKSIZE`、`MRSRB`这些寄存器。
 
@@ -119,7 +119,7 @@ reset:
 
 其程序流程图如下：
 
-![](https://gmf.shengnengjin.cn/U-Boot%20Stage1_2.svg)
+![](https://pic.gaomf.store/U-Boot%20Stage1_2.svg)
 
 全局变量`gd`是一个`struct global_data`类型的结构体，此结构体的定义位于`include/asm-generic/global_data.h`文件中。此结构体保存了初始化阶段需要用到的各种全局变量，大约有100个左右，相关说明如下：
 

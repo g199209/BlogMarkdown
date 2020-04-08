@@ -19,7 +19,7 @@ U-Boot对NOR Flash的检测有两种方法，使用Legacy方法进行检测和�
 ```
 
 具体值根据实际使用的NOR Flash确定，在数据手册中都会有说明的，以EN29LV160B为例：
-![](https://gmf.shengnengjin.cn/20160623105538.png)
+![](https://pic.gaomf.store/20160623105538.png)
 可以算出其扇区数为35。
 
 ## **两种检测方式的切换**
@@ -83,7 +83,7 @@ EN29LV160B这个型号的NOR Flash不存在，需要添加相应的宏定义，�
 ```
 
 具体宏定义的值可参考数据手册，其中有对Device ID的描述：
-![](https://gmf.shengnengjin.cn/20160623100634.png)
+![](https://pic.gaomf.store/20160623100634.png)
 
 最后找到`drivers/mtd/jedec_flash.c`文件，需要在`jedec_table`这个数组中添加此型号NOR Flash的结构体，此数组会在`jedec_flash_match()`函数中被调用，此函数代码如下：
 ``` C

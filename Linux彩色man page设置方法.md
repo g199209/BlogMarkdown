@@ -28,7 +28,7 @@ export LESS_TERMCAP_se=$'\E[0m'
 
 更改完`.bashrc`文件后要用`source .bashrc`命令重新载入一下配置，之后重启终端才会生效，以上配置显示效果如下：
 
-![](https://gmf.shengnengjin.cn/20170113183033.png-width600)
+![](https://pic.gaomf.store/20170113183033.png-width600)
 
 其中`LESS_TERMCAP_xx`的含义如下：
 

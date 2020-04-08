@@ -29,7 +29,7 @@ date: 2016-10-24 23:04:27
 
 类似[LeetCode 141](/2016/10/24/LeetCode_141/)的解法，只是之后还要求出环开始的节点，这依赖于一些数学关系，下面来简要推导一下。
 
-![](https://gmf.shengnengjin.cn/05171805-64db9f059a1641e7afaf3dd8223c4fe7.jpg)
+![](https://pic.gaomf.store/05171805-64db9f059a1641e7afaf3dd8223c4fe7.jpg)
 
 如图所示，假设`slow`指针运动到$Y$节点时，`fast`指针位于环中任意位置（图中未标出），其距$Y$点的距离为$m$。首先证明当`slow`指针与`fast`指针相遇于环中某一点$Z$时，`slow`指针移动距离$b$小于环的长度$L$，且`fast`指针只会比`slow`指针多移动一圈。
 

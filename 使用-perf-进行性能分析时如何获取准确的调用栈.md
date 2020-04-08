@@ -29,15 +29,15 @@ date: 2019-10-30 23:09:37
 
 **`--call-graph fp`**：
 
-![](https://gmf.shengnengjin.cn/perf_test_fp.svg)
+![](https://pic.gaomf.store/perf_test_fp.svg)
 
 **`--call-graph lbr`**：
 
-![](https://gmf.shengnengjin.cn/perf_test_lbr.svg)
+![](https://pic.gaomf.store/perf_test_lbr.svg)
 
 **`--call-graph dwarf`**：
 
-![](https://gmf.shengnengjin.cn/perf_test_dwarf.svg)
+![](https://pic.gaomf.store/perf_test_dwarf.svg)
 
 
 
