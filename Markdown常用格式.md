@@ -105,9 +105,9 @@ __________________________________
 ## 图片
 使用`![](图片链接地址)`这样的语法即可。
 ```markdown
-![](https://pic.gaomf.store/Octocat.png)
+![](https://img.gaomf.cn/Octocat.png)
 ```
-![](https://pic.gaomf.store/Octocat.png-width300)
+![](https://img.gaomf.cn/Octocat.png-width300)
 
 ## 粗体和斜体
 使用2个`*`包含一段文本代表粗体，使用1个`*`包含一段文本代表斜体。

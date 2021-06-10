@@ -16,7 +16,7 @@ Microsoft VS编译器与GCC均支持OpenMP，需要通过编译选项来启用�
 - GCC中添加`-fopenmp`编译选项
 - VS中在项目属性中启用`OpenMP支持`，如下图所示：
 
-![](https://pic.gaomf.store/C20151211153251.png)
+![](https://img.gaomf.cn/C20151211153251.png)
 
 ----------
 

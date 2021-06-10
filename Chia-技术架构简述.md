@@ -23,7 +23,7 @@ IPFS 好歹还可以存一些实际有用的数据，看起来还真能促进下
 
 Chia 的整体架构图如下：
 
-![](https://pic.gaomf.store/chia-network-architecture.png-height)
+![](https://img.gaomf.cn/chia-network-architecture.png-height)
 
 整个系统中主要有 3 种类型的参与者：
 - Farmer，农民
@@ -65,7 +65,7 @@ Farming 的过程就是对一系列 Challenges 的证明响应，每一轮证明
 
 生成一个区块的过程中会产生 64 次 Challenges，这一过程在客户端 Farming 的界面中可以看到：
 
-![](https://pic.gaomf.store/20210510-170238%402x.png-height)
+![](https://img.gaomf.cn/20210510-170238%402x.png-height)
 
 每一个这样的点被称为一个 Signage Point。
 
@@ -83,7 +83,7 @@ Challenge 的高 $k$ bit 表示 f7 要满足的一些性质，通过对 C1, C2, 
 
 之后的查找过程示意如下：
 
-![](https://pic.gaomf.store/chia_plots_file_table.png)
+![](https://img.gaomf.cn/chia_plots_file_table.png)
 
 不过要注意的是，从 Table 7 中的一项表项只能找到 Table 6 中对应的**一项**，这样依次找下去就可以得到 Table 1 中的 32 项，每项是由 2 个 $k$ bit 的整数构成的，因此最终结果就有 $k*64$ bit。对这 64 个数进行重新排序（排序规则是由 PoST 算法决定的），最终就可以生成一个长长的字符串，这就是 PoSpace 的证明结果。
 

@@ -54,7 +54,7 @@ Solarized标准的背景色是深蓝色的，在其Github页面上可以看到�
 
 最终的显示效果如下：
 
-![](https://pic.gaomf.store/20170117234815.png-width600)
+![](https://img.gaomf.cn/20170117234815.png-width600)
 
 ### [Airline](https://github.com/vim-airline/vim-airline)
 
@@ -66,7 +66,7 @@ Solarized标准的背景色是深蓝色的，在其Github页面上可以看到�
 
 vim-ariline的使用很简单，基本无需多少配置，且可以自动和诸多其他插件配合使用，十分方便。我使用`bubblegum`主题的显示效果如下：
 
-![](https://pic.gaomf.store/20170118154146.png-width600)
+![](https://img.gaomf.cn/20170118154146.png-width600)
 
 ### [Startify](https://github.com/mhinz/vim-startify)
 

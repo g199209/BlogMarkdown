@@ -7,7 +7,7 @@ categories: 工具之术
 ---
 
 在Simulink中，一共有6种仿真模式可供选择，如图：
-![](https://pic.gaomf.store/Matlab20151223135602.png)
+![](https://img.gaomf.cn/Matlab20151223135602.png)
 - **Normal模式为一般正常的仿真模式**
 - **Accelerator及Rapid Accelerator模式用于加快代码的执行速度**
 - **SIL及PIL模式用于自动代码生成时进行测试仿真**
@@ -19,7 +19,7 @@ categories: 工具之术
 
 ## **加速模式(Accelerator)** ##
 Normal、Accelerator、Rapid Accelerator模式的比较如下：
-![](https://pic.gaomf.store/Matlabaccel_perform12c.png)
+![](https://img.gaomf.cn/Matlabaccel_perform12c.png)
 简而言之，就是Normal模式执行速度最慢，不过支持的功能最多；Rapid Accelerator模式执行速度最快，不过支持的功能最少，对于使用的模块也有限制(需要模块有C代码以可以编译为可执行文件)；Accelerator模块介于二者之间。
 这三种模式的具体功能比较可参阅帮助文档中"[Choosing a Simulation Mode](http://cn.mathworks.com/help/simulink/ug/choosing-a-simulation-mode.html)"小节，执行方式比较详见"[How Acceleration Modes Work](http://cn.mathworks.com/help/simulink/ug/how-the-acceleration-modes-work.html)"小节。
 

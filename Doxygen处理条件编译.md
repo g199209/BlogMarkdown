@@ -18,5 +18,5 @@ categories: 工具之术
 <!--more-->
 
 截图如下：
-![](https://pic.gaomf.store/Doxygen20151113230829.png)
+![](https://img.gaomf.cn/Doxygen20151113230829.png)
 

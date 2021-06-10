@@ -17,7 +17,7 @@ categories: 点滴之间
 根据启动扇区的地址不同，可分为两大类：Top Boot & Bottom Boot。**Top Boot是指Boot Sector位于最高地址处；Bottom Boot是指Boot Sector位于最低地址处，**一般同一型号的Nor Flash都会同时提供这两个版本，除了地址分配的差异外，其它的主要参数二者应该完全相同。
 
 一张比较清晰的对比图如下：
-![](https://pic.gaomf.store/ZnJvbT1jc2RuJnVybD13WndwbUwyQUROMElUTTFFek53Z0RNdklUWnNsbVp3VjNMbjlHYmk5Q2RsNW1MNGxtYjFGbWJwaDJZdWNXYnBkMmJzSjJMdm9EYzBSSGE.jpg)
+![](https://img.gaomf.cn/ZnJvbT1jc2RuJnVybD13WndwbUwyQUROMElUTTFFek53Z0RNdklUWnNsbVp3VjNMbjlHYmk5Q2RsNW1MNGxtYjFGbWJwaDJZdWNXYnBkMmJzSjJMdm9EYzBSSGE.jpg)
 
 下面以AMD公司的Am29LV160D为例来具体看看这个问题。
 
@@ -29,14 +29,14 @@ Am29LV160D可配置为2M * 8-Bit或1M * 16-Bit，这个是通过一个引脚电�
 - 31个32Kword扇区
 
 这些扇区中，前面那4个扇区就是Boot Sector。AMD公司同时提供了Top Boot和Bottom Boot两种芯片，见下图：
-![](https://pic.gaomf.store/20160623005443.png)
+![](https://img.gaomf.cn/20160623005443.png)
 
 对于Top Boot的器件来说，其扇区分配如下：
-![](https://pic.gaomf.store/20160623005627.png)
+![](https://img.gaomf.cn/20160623005627.png)
 可以看到，其中小容量扇区被安排到了最高地址处，即最后几个扇区。
 
 对于Bottom Boot的器件来说，其扇区分配如下：
-![](https://pic.gaomf.store/20160623005756.png)
+![](https://img.gaomf.cn/20160623005756.png)
 可以看到，其中小容量扇区被安排到了最低地址处，即最前几个扇区。
 
 ----------

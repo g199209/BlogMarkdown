@@ -61,13 +61,13 @@ int main() {
 
 `408350`~`40835a`部分为GCC自动生成的`main`函数入口处代码，此处不用管它；`40835f`~`408372`为第一个`scanf`函数，读入`security`；`408377`~`408382`为第二个`scanf`函数，读入`str`；`408387`~`40838a`调用`printf`输出`str`。根据反汇编结果，我们可以画出`408372`行时栈的结构：
 
-![](https://pic.gaomf.store/scanf_stack.svg)
+![](https://img.gaomf.cn/scanf_stack.svg)
 
 `scanf`函数反向压栈，故`%esp`指针指向的元素`$0x40a0c0`应该就是字符串字面量`"%d"`的首地址，而`%esp+0x04`就是栈中的下一个元素，这就是`security`变量的地址，从汇编代码中可以看到，这个地址是一个`%esp`的偏移量，`%esp+0x18`。由此，我们可以分析出`security`在栈中的位置，而之后`%esp`指针没有改变，故我们可以构造以下这个特殊的字符串：`%d%d%d%d%d_____security_is:%d`，这个字符串会连续取出栈中的前6个`int`，第6个`int`的地址就是`%esp+0x18`，这正是`security`变量的地址。
 
 实际运行程序测试一下：
 
-![](https://pic.gaomf.store/20170920214800.png)
+![](https://img.gaomf.cn/20170920214800.png)
 
 可以看到，我们成功读到了`security`的内容。
 

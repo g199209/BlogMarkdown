@@ -23,7 +23,7 @@ date: 2016-11-25 22:00:59
 
 当前主题在移动端的布局中，点击左上角的菜单按钮就会弹出一个显示友情链接、标签等信息的叠层，综合看下来将搜索框添加在这个位置较合适，最终的效果如图：
 
-![](https://pic.gaomf.store/20161125210304.png)
+![](https://img.gaomf.cn/20161125210304.png)
 
 这里的搜索框和PC端基本是一样的，只是样式上做了些变化，使得整体效果更和谐。找到合适的位置添加搜索框及搜索结果区的HTML代码即可：
 
@@ -181,7 +181,7 @@ TouceArea.ontouchend = function(e) {
 ## 最终成品效果
 实际使用下来还是比较满意的，搜索效果像这样：
 
-![](https://pic.gaomf.store/Search_mobile.gif)
+![](https://img.gaomf.cn/Search_mobile.gif)
 
 
 

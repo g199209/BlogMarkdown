@@ -50,18 +50,18 @@ Connecting ...
 `Use traget RAM (faster)`建议选上，否则下载速度会很慢。RAM Address根据实际情况填写，对于S3C2440来说，可以使用内部4K的SRAM，其地址为0x40000000。
 在使用了目标RAM后，有时候下载会提示错误：`PC of target system has unexpected value after programming`,若出现此错误，可参考 [这篇文章](http://www.crifan.com/resolved_j-flash_arm_nor_flash_programming_error_pc_of_target_system_has_unexpected_value_after_programming/) 的做法，将`Use following init sequence:`中Reset的Delay时间改为2ms。
 配置完成后的设置如图：
-![](https://pic.gaomf.store/arm20151031162234.png)
+![](https://img.gaomf.cn/arm20151031162234.png)
 
 `Flash`中，可不勾选`Automatically detect flash memory`，改为手动指定Flash型号。
 点击`Select flash device`后，选择正确的Falsh型号即可。Mini2440开发板上使用的NOR Flash为AM29LV160DB。
 如果没有实际使用的型号，可以选择一个兼容型号，然后去掉`Check manufacturer flash Id`和`Check product flash Id`即可。
 配置完成后的设置如图：
-![](https://pic.gaomf.store/arm20151031163621.png)
+![](https://img.gaomf.cn/arm20151031163621.png)
 
 `Production`保持默认。
 
 全部设置完成后，工程设置如图：
-![](https://pic.gaomf.store/arm20151031163909.png)
+![](https://img.gaomf.cn/arm20151031163909.png)
 
 可将设置文件保存为`.jfalsh`文件，下次直接打开即可。
 
@@ -71,7 +71,7 @@ Connecting ...
 可以通过测试下载速度来检查之前的配置是否正确，如果能正常下载测试数据，说明配置正确。
 
 如果测试通过的话，会自动弹出测试结果：
-![](https://pic.gaomf.store/arm20151031153629.png)
+![](https://img.gaomf.cn/arm20151031153629.png)
 
 ## 选择程序文件
 `File` -> `Open data file`

@@ -283,7 +283,7 @@ make all
 ```
 
 此处的设置参考2440数据手册中对`INTSUBMSK`寄存器的说明：
-![](https://pic.gaomf.store/20160618160432.png)
+![](https://img.gaomf.cn/20160618160432.png)
 
 ### 更改时钟设置
 

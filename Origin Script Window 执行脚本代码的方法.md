@@ -11,7 +11,7 @@ categories: 工具之术
 <!--more-->
 
 这个Script Window是像这样的：
-![](https://pic.gaomf.store/Software20160127165933.png)
+![](https://img.gaomf.cn/Software20160127165933.png)
 
 界面上并没有一个执行按钮，按正常思路应该是输完一行代码后敲一下回车就会执行这行代码了，**然而，这个Script Window却不是这样的，其运行代码的方式极为诡异……**
 

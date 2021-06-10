@@ -15,4 +15,4 @@ Windows系统出于安全性考虑，在开启了防火墙时，默认情况下�
 
 以Windows 10为例，打开防火墙高级设置界面，在入站规则中允许ICMP回显即可，如图：
 
-![](https://pic.gaomf.store/20161027191757.png)
+![](https://img.gaomf.cn/20161027191757.png)
