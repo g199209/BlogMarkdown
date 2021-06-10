@@ -1,5 +1,5 @@
 title: LeetCode 160. Intersection of Two Linked Lists (Easy)
-permalink: LeetCode_160
+weburl: LeetCode_160
 toc: true
 mathjax: false
 fancybox: false

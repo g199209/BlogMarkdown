@@ -1,4 +1,5 @@
 title: U-Boot中IP地址设置方法
+weburl: U-Boot中IP地址设置方法
 date: 2016-05-30 23:13:35
 tags: [Bootloader]
 categories: 工具之术

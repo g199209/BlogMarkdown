@@ -1,4 +1,5 @@
 title: C2000 DSP新建工程基本步骤
+weburl: C2000 DSP新建工程基本步骤
 date: 2015-11-28 12:52:05
 tags: [DSP]
 categories: 工具之术

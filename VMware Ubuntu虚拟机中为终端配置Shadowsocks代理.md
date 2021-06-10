@@ -1,5 +1,5 @@
 title: VMware Ubuntu虚拟机中为终端配置Shadowsocks代理
-permalink: VMWare_Ubuntu_Terminal_Shadowsocks
+weburl: VMWare_Ubuntu_Terminal_Shadowsocks
 toc: false
 mathjax: false
 fancybox: false

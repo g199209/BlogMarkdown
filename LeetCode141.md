@@ -1,5 +1,5 @@
 title: LeetCode 141. Linked List Cycle (Easy)
-permalink: LeetCode_141
+weburl: LeetCode_141
 toc: true
 mathjax: false
 fancybox: false

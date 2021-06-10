@@ -1,5 +1,5 @@
 title: Cadence Allegro 调整界面字体字号
-permalink: Allegro_Font
+weburl: Allegro_Font
 toc: false
 mathjax: false
 fancybox: false

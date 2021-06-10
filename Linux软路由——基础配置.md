@@ -1,5 +1,5 @@
 title: Linux软路由——基础配置
-permalink: Linux_SoftRouter_Basic
+weburl: Linux_SoftRouter_Basic
 toc: true
 mathjax: false
 fancybox: false

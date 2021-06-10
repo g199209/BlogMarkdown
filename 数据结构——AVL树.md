@@ -1,5 +1,5 @@
 title: 数据结构——AVL树
-permalink: Data_Structure_AVLTree
+weburl: Data_Structure_AVLTree
 toc: true
 mathjax: false
 fancybox: false

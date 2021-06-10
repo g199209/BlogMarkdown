@@ -1,5 +1,5 @@
 title: LeetCode 014. Longest Common Prefix (Easy)
-permalink: LeetCode_014
+weburl: LeetCode_014
 toc: true
 mathjax: false
 fancybox: false

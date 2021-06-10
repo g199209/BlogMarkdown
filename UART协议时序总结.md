@@ -1,4 +1,5 @@
 title: UART协议时序总结
+weburl: UART协议时序总结
 date: 2016-07-12 20:31:15
 tags: [Small Protocol]
 categories: 点滴之间

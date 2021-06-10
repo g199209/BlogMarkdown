@@ -1,5 +1,5 @@
 title: Vim配置及插件总结
-permalink: Vim_Plugin
+weburl: Vim_Plugin
 toc: true
 mathjax: false
 fancybox: false

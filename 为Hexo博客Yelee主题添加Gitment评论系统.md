@@ -1,9 +1,9 @@
 title: 为Hexo博客Yelee主题添加Gitment评论系统
+weburl: Hexo_Yelee_Gitment
 toc: false
 mathjax: false
 fancybox: false
 tags: [Blog]
-permalink: Hexo_Yelee_Gitment
 categories: 工具之术
 date: 2018-11-04 21:36:31
 

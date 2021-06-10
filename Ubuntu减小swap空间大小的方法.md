@@ -1,5 +1,5 @@
 title: Ubuntu减小swap分区大小的方法
-permalink: Ubuntu_Reduce_Swap
+weburl: Ubuntu_Reduce_Swap
 toc: true
 mathjax: false
 fancybox: false

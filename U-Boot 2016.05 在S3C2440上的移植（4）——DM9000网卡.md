@@ -1,4 +1,5 @@
 title: U-Boot 2016.05 在S3C2440上的移植（4）——DM9000网卡
+weburl: U-Boot 2016.05 在S3C2440上的移植（4）——DM9000网卡
 date: 2016-06-25 21:02:15
 tags: [Bootloader]
 categories: 编程之法

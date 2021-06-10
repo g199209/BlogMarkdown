@@ -1,5 +1,5 @@
 title: VS2015下编译OpenCV 3.1
-permalink: VS2015_OpenCV31
+weburl: VS2015_OpenCV31
 toc: true
 mathjax: false
 fancybox: false

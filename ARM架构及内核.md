@@ -1,5 +1,5 @@
 title: ARM架构及内核
-permalink: ARM_Architecture_Core
+weburl: ARM_Architecture_Core
 toc: true
 mathjax: false
 fancybox: false

@@ -1,5 +1,5 @@
 title: LeetCode 083. Remove Duplicates from Sorted List (Easy)
-permalink: LeetCode_083
+weburl: LeetCode_083
 toc: true
 mathjax: false
 fancybox: false

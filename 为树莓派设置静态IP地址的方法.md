@@ -1,5 +1,5 @@
 title: 为树莓派设置静态IP地址的方法
-permalink: Raspberry_Pi_Static_IP
+weburl: Raspberry_Pi_Static_IP
 toc: false
 mathjax: false
 fancybox: false

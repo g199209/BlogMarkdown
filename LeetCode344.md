@@ -1,5 +1,5 @@
 title: LeetCode 344. Reverse String (Easy)
-permalink: LeetCode_344
+weburl: LeetCode_344
 toc: true
 mathjax: false
 fancybox: false

@@ -1,5 +1,5 @@
 title: PSpice中的延时开关
-permalink: PSpice_Swt
+weburl: PSpice_Swt
 toc: false
 mathjax: false
 fancybox: false

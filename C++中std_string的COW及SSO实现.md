@@ -1,5 +1,5 @@
 title: C++中std::string的COW及SSO实现
-permalink: Cpp_string_COW_SSO
+weburl: Cpp_string_COW_SSO
 toc: false
 mathjax: false
 fancybox: false

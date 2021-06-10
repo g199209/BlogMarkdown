@@ -1,5 +1,5 @@
 title: Linux下让进程在后台可靠运行的方法
-permalink: Linux_Background_Run
+weburl: Linux_Background_Run
 toc: false
 mathjax: false
 fancybox: false

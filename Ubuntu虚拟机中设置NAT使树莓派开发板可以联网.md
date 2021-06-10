@@ -1,5 +1,5 @@
 title: Ubuntu虚拟机中设置NAT使树莓派开发板可以联网
-permalink: Ubuntu_NAT_Raspberry
+weburl: Ubuntu_NAT_Raspberry
 toc: true
 mathjax: false
 fancybox: false

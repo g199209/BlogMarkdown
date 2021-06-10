@@ -1,4 +1,5 @@
 title: U-Boot 2016.05 在S3C2440上的移植（2）——NOR Flash
+weburl: U-Boot 2016.05 在S3C2440上的移植（2）——NOR Flash
 date: 2016-06-24 14:07:50
 tags: [Bootloader]
 categories: 编程之法

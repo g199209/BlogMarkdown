@@ -1,4 +1,5 @@
 title: C语言生成随机数
+weburl: C语言生成随机数
 date: 2015-11-16 20:22:19
 toc: false
 tags: [C, Number Theory]
@@ -90,7 +91,6 @@ void __cdecl srand (unsigned int seed)
 除了线性同余法外，还有多种生成伪随机数的方法，如生成均匀分布伪随机数使用的梅森旋转算法、Multiply-With-Carry算法，生成高斯分布伪随机数使用的中心极限定理法、Box-Muller算法等。具体可以参考 [这篇文章](http://blog.skyoung.org/2013/08/27/generate-random-number/) 的说明。
 
 > C++中生成随机数可以使用更好的方法，详见：[C++生成随机数](/2017/03/22/C++_Random/)
-
 
 
 

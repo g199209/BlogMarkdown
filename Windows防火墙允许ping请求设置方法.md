@@ -1,5 +1,5 @@
 title: Windows防火墙允许ping请求设置方法
-permalink: Windows_Ping
+weburl: Windows_Ping
 toc: false
 mathjax: false
 fancybox: false

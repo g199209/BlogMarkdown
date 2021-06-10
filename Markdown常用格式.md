@@ -1,4 +1,5 @@
 title: Markdown常用格式
+weburl: Markdown常用格式
 date: 2015-10-30 14:34:23
 tags: [Blog]
 mathjax: true
@@ -218,7 +219,6 @@ ____________________________________
 ```
 
 Html标签另外一个比较有用的作用是可以方便的直接插入一些符号，避免被Markdown解释器错误的解释。
-
 
 
 

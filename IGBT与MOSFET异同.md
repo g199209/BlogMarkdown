@@ -1,4 +1,5 @@
 title: IGBT与MOSFET比较
+weburl: IGBT与MOSFET比较
 date: 2016-01-11 22:47:00
 tags: [Motor, HW Component]
 categories: 硬件之理

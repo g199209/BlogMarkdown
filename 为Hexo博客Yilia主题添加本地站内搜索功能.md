@@ -1,4 +1,5 @@
 title: 为Hexo博客Yilia主题添加本地站内搜索功能
+weburl: 为Hexo博客Yilia主题添加本地站内搜索功能
 date: 2016-10-10 22:49:23
 tags: [Blog]
 categories: 编程之法

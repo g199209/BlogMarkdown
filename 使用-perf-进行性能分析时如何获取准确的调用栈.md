@@ -1,5 +1,5 @@
 title: 使用 perf 进行性能分析时如何获取准确的调用栈
-permalink: perf_stack_traceback
+weburl: perf_stack_traceback
 toc: false
 mathjax: false
 fancybox: false

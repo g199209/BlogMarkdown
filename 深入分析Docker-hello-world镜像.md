@@ -4,7 +4,7 @@ mathjax: false
 fancybox: false
 tags: [Docker, Linux, C, Compiler, Runtime]
 date: 2019-02-15 22:46:25
-permalink: Deep_Into_Dokcer_Helloworld
+weburl: Deep_Into_Dokcer_Helloworld
 categories: 软件之道
 
 ---

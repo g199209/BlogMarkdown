@@ -1,4 +1,5 @@
 title: VMware虚拟机中嵌入式Linux开发环境网络配置
+weburl: VMware虚拟机中嵌入式Linux开发环境网络配置
 date: 2016-06-25 21:27:00
 tags: [Linux, Network]
 categories: 工具之术

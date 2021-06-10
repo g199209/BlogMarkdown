@@ -1,4 +1,5 @@
 title: C语言中函数指针的声明及使用
+weburl: C语言中函数指针的声明及使用
 date: 2016-04-21 15:58:46
 tags: [C]
 categories: 编程之法

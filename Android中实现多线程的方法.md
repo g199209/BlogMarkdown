@@ -1,4 +1,5 @@
 title: Android中实现多线程的方法
+weburl: Android中实现多线程的方法
 date: 2016-05-24 14:49:41
 tags: [Android, Concurrent]
 categories: 编程之法

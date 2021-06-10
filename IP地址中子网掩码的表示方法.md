@@ -1,5 +1,5 @@
 title: IP地址中子网掩码的表示方法
-permalink: IP_Mask
+weburl: IP_Mask
 toc: false
 mathjax: false
 fancybox: false

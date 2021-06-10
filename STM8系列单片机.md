@@ -1,4 +1,5 @@
 title: STM8系列单片机
+weburl: STM8系列单片机
 date: 2015-12-21 13:31:31
 tags: [STM8]
 categories: 工具之术

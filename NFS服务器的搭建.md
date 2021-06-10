@@ -1,4 +1,5 @@
 title: NFS服务器的搭建
+weburl: NFS服务器的搭建
 date: 2016-05-30 23:19:59
 tags: [Linux, Network]
 categories: 工具之术

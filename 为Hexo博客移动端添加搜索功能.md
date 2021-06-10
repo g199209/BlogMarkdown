@@ -1,5 +1,5 @@
 title: 为Hexo博客移动端添加搜索功能
-permalink: Blog_Search_Mobile
+weburl: Blog_Search_Mobile
 toc: true
 mathjax: false
 fancybox: true

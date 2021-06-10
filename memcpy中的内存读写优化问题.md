@@ -1,5 +1,5 @@
 title: memcpy中的内存读写优化问题
-permalink: Memcpy_Optimization
+weburl: Memcpy_Optimization
 toc: false
 mathjax: false
 fancybox: false

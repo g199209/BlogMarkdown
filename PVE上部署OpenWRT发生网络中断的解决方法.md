@@ -1,5 +1,5 @@
 title: PVE上部署OpenWRT发生网络中断的解决方法
-permalink: PVE_OpenWRT_Network_Broken
+weburl: PVE_OpenWRT_Network_Broken
 toc: false
 mathjax: false
 fancybox: false

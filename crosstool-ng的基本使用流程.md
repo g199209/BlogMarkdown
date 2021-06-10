@@ -1,4 +1,5 @@
 title: crosstool-ng的基本使用流程
+weburl: crosstool-ng的基本使用流程
 date: 2016-06-15 11:33:58
 tags: [Linux, Compiler]
 categories: 工具之术

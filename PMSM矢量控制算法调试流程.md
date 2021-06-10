@@ -1,5 +1,5 @@
 title: PMSM矢量控制算法调试流程
-permalink: PMSM_Vector_Control
+weburl: PMSM_Vector_Control
 toc: true
 mathjax: false
 fancybox: true

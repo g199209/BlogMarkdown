@@ -4,7 +4,7 @@ mathjax: false
 fancybox: false
 tags: [Debug, x86, Linux, GDB, Top]
 date: 2019-12-24 20:56:28
-permalink: coredump_optimized_value
+weburl: coredump_optimized_value
 categories: 编程之法
 
 ---

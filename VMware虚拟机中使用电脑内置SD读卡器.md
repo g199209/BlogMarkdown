@@ -1,5 +1,5 @@
 title: VMware虚拟机中使用电脑内置SD读卡器
-permalink: VMware_Internal_SD
+weburl: VMware_Internal_SD
 toc: false
 mathjax: false
 fancybox: false

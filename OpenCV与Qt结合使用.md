@@ -1,5 +1,5 @@
 title: OpenCV与Qt结合使用
-permalink: OpenCV_and_Qt
+weburl: OpenCV_and_Qt
 toc: true
 mathjax: false
 fancybox: false

@@ -1,5 +1,5 @@
 title: SSH连接自动断开的解决方法
-permalink: SSH_Broken_Pipe
+weburl: SSH_Broken_Pipe
 toc: false
 mathjax: false
 fancybox: false

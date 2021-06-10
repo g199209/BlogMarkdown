@@ -1,4 +1,5 @@
 title: BLDC六步换相法基本原理及驱动波形
+weburl: BLDC六步换相法基本原理及驱动波形
 date: 2015-12-03 19:25:05
 tags: [Motor]
 categories: 科研之路

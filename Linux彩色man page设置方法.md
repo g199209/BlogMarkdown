@@ -1,5 +1,5 @@
 title: Linux彩色man page设置方法
-permalink: Linux_Colourful_Man
+weburl: Linux_Colourful_Man
 toc: false
 mathjax: false
 fancybox: false

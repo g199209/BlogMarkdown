@@ -1,4 +1,5 @@
 title: GCC中-march、-mtune、-mcpu三个参数的设置
+weburl: GCC中-march、-mtune、-mcpu三个参数的设置
 date: 2016-06-15 16:52:42
 tags: [Linux, Compiler, Top]
 categories: 工具之术
@@ -45,5 +46,4 @@ cortex-a15.cortex-a7, cortex-a57.cortex-a53, cortex-a72.cortex-a53.
 **特别注意其中对`-mcpu`参数的说明，指定了`-mcpu`后，GCC编译器会自动推导出`-march`及`-mtune`，故不需要再指定这两个参数，只需要给出`-mcpu`即可，而且`-mcpu`的可能取值与`-mtune`完全相同**。比如S3C2440，只需要加上`-mcpu=arm920t`即可。
 
 在crosstool-ng的新版本（比如1.22.0）中，使用menuconfig进行配置时，一旦设置了`Emit assembly for CPU`这个选项，`Architecture level`及`Tune for CPU`这两个选项就会自动消失。最初在配置的时候还以为是Bug，后面仔细研究下才发现这是crosstool-ng已根据GCC的新特性进行了升级。
-
 

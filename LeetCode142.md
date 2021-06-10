@@ -1,5 +1,5 @@
 title: LeetCode 142. Linked List Cycle II (Medium)
-permalink: LeetCode_142
+weburl: LeetCode_142
 toc: true
 mathjax: true
 fancybox: false

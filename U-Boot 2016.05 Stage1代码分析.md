@@ -1,4 +1,5 @@
 title: U-Boot 2016.05 Stage1代码分析
+weburl: U-Boot 2016.05 Stage1代码分析
 date: 2016-07-15 17:14:24
 tags: [Bootloader, Top]
 categories: 软件之道

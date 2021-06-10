@@ -1,4 +1,5 @@
 title: Jlink为S3C2440下载程序提示"Unable to halt cpu core"的解决办法
+weburl: Jlink为S3C2440下载程序提示"Unable to halt cpu core"的解决办法
 date: 2016-06-20 17:08:06
 tags: [ARM, Bootloader, Debug]
 categories: 点滴之间

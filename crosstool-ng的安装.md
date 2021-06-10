@@ -1,4 +1,5 @@
 title: crosstool-ng的安装
+weburl: crosstool-ng的安装
 date: 2016-06-14 15:36:34
 tags: [Linux, Compiler]
 categories: 工具之术

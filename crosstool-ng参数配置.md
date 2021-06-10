@@ -1,4 +1,5 @@
 title: crosstool-ng参数配置
+weburl: crosstool-ng参数配置
 date: 2016-06-16 00:01:23
 tags: [Linux, Compiler]
 categories: 工具之术

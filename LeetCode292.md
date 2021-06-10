@@ -1,5 +1,5 @@
 title: LeetCode 292. Nim Game (Easy)
-permalink: LeetCode_292
+weburl: LeetCode_292
 toc: true
 mathjax: false
 fancybox: false

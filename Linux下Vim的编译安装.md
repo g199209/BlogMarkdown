@@ -1,5 +1,5 @@
 title: Linux下Vim的编译安装
-permalink: Linux_Vim_Compile
+weburl: Linux_Vim_Compile
 toc: true
 mathjax: false
 fancybox: false

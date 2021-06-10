@@ -1,4 +1,5 @@
 title: Quartus中配置FPGA未使用引脚状态方法
+weburl: Quartus中配置FPGA未使用引脚状态方法
 date: 2016-01-12 17:02:50
 tags: [FPGA]
 categories: 工具之术

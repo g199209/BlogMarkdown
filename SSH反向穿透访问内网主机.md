@@ -1,5 +1,5 @@
 title: SSH反向穿透访问内网主机
-permalink: SSH_Forwarding
+weburl: SSH_Forwarding
 toc: false
 mathjax: false
 fancybox: false

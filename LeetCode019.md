@@ -1,5 +1,5 @@
 title: LeetCode 019. Remove Nth Node From End of List (Easy)
-permalink: LeetCode_019
+weburl: LeetCode_019
 toc: true
 mathjax: false
 fancybox: false

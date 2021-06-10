@@ -1,5 +1,5 @@
 title: LeetCode 415. Add String (Easy)
-permalink: LeetCode_415
+weburl: LeetCode_415
 toc: true
 mathjax: false
 fancybox: false

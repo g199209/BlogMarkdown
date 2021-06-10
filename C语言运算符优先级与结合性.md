@@ -1,4 +1,5 @@
 title: C语言运算符优先级与结合性
+weburl: C语言运算符优先级与结合性
 date: 2016-04-08 13:30:14
 tags: [C]
 categories: 编程之法

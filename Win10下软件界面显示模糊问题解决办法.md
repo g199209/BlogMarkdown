@@ -1,5 +1,5 @@
 title: Win10下软件界面显示模糊问题解决办法
-permalink: Win10_Software_Font_Blur
+weburl: Win10_Software_Font_Blur
 toc: false
 mathjax: false
 fancybox: false

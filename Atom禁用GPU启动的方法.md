@@ -1,5 +1,5 @@
 title: Atom禁用GPU启动的方法
-permalink: Atom_Disable_GPU
+weburl: Atom_Disable_GPU
 toc: false
 mathjax: false
 fancybox: false

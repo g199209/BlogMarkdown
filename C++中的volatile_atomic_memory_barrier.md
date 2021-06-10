@@ -4,7 +4,7 @@ mathjax: false
 fancybox: false
 tags: [C++, Compiler, Concurrent, x86, ARM]
 date: 2020-09-11 16:46:28
-permalink: Cpp_Volatile_Atomic_Memory_barrier
+weburl: Cpp_Volatile_Atomic_Memory_barrier
 categories: 编程之法
 
 ---

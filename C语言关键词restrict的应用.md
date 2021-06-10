@@ -1,5 +1,5 @@
 title: C语言关键词restrict的应用
-permalink: C_restrict
+weburl: C_restrict
 toc: false
 mathjax: false
 fancybox: false

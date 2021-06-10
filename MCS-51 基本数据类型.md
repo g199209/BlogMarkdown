@@ -1,4 +1,5 @@
 title: MCS-51 基本数据类型
+weburl: MCS-51 基本数据类型
 date: 2016-03-25 15:08:44
 tags: [C, MCS-51]
 categories: 编程之法

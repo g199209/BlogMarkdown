@@ -1,5 +1,5 @@
 title: LeetCode 167. Two Sum II - Input array is sorted (Medium)
-permalink: LeetCode_167
+weburl: LeetCode_167
 toc: true
 mathjax: false
 fancybox: false

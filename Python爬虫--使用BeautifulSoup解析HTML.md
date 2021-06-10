@@ -1,4 +1,5 @@
 title: Python爬虫--使用BeautifulSoup解析HTML
+weburl: Python爬虫--使用BeautifulSoup解析HTML
 date: 2016-07-20 15:40:19
 tags: [Python, Spider]
 categories: 编程之法

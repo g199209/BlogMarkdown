@@ -1,5 +1,5 @@
 title: PSpice教程及帮助文档
-permalink: PSpice_Tutorial_Help
+weburl: PSpice_Tutorial_Help
 toc: false
 mathjax: false
 fancybox: false

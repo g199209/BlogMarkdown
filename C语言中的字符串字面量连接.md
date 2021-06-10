@@ -1,5 +1,5 @@
 title: C语言中的字符串字面量连接
-permalink: string_literal_concatenate
+weburl: string_literal_concatenate
 toc: false
 mathjax: false
 fancybox: false

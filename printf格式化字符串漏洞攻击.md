@@ -1,5 +1,5 @@
 title: printf格式化字符串漏洞攻击
-permalink: printf_format_string_attack
+weburl: printf_format_string_attack
 toc: false
 mathjax: false
 fancybox: false

@@ -1,5 +1,5 @@
 title: SSH证书登录总结
-permalink: SSH_Authentication
+weburl: SSH_Authentication
 toc: true
 mathjax: false
 fancybox: false

@@ -4,7 +4,7 @@ mathjax: false
 fancybox: false
 tags: [Linux]
 date: 2018-11-17 17:20:09
-permalink: Sudo_No_Passwd
+weburl: Sudo_No_Passwd
 categories: 工具之术
 
 ---

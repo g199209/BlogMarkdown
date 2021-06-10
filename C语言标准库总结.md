@@ -1,4 +1,5 @@
 title: C语言标准库总结
+weburl: C语言标准库总结
 date: 2016-04-18 12:52:05
 tags: [C, Top]
 categories: 编程之法

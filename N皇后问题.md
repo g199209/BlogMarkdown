@@ -1,5 +1,5 @@
 title: N皇后问题
-permalink: N_Queen_Problem
+weburl: N_Queen_Problem
 toc: false
 mathjax: false
 fancybox: false

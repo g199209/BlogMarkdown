@@ -1,5 +1,5 @@
 title: C语言中typeof的使用
-permalink: C_typeof
+weburl: C_typeof
 toc: false
 mathjax: false
 fancybox: false

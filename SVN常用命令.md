@@ -1,5 +1,5 @@
 title: SVN常用命令
-permalink: SVN
+weburl: SVN
 toc: true
 mathjax: false
 fancybox: false

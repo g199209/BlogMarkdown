@@ -1,5 +1,5 @@
 title: Linux kernel中的min和max宏
-permalink: Kernel_min_max_macro
+weburl: Kernel_min_max_macro
 toc: false
 mathjax: false
 fancybox: false

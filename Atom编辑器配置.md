@@ -1,5 +1,5 @@
 title: Atom编辑器配置
-permalink: Atom_Configure
+weburl: Atom_Configure
 toc: true
 mathjax: false
 fancybox: false
@@ -127,7 +127,7 @@ Atom本身就支持Markdown语法高亮的，再配合一些插件就可以很�
   fileExtension: ".md"
   frontMatter: '''
     title: <title>
-    permalink:
+    weburl:
     toc: false
     mathjax: false
     fancybox: false

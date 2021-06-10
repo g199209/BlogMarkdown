@@ -1,4 +1,5 @@
 title: U-Boot版本命名规则及源码下载途径
+weburl: U-Boot版本命名规则及源码下载途径
 date: 2016-05-27 23:18:37
 tags: [Bootloader]
 categories: 点滴之间

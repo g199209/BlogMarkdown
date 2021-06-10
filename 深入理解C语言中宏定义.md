@@ -1,5 +1,5 @@
 title: 深入理解C语言中宏定义
-permalink: C_Macro
+weburl: C_Macro
 toc: false
 mathjax: false
 fancybox: false

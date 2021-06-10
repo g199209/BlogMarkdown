@@ -1,5 +1,5 @@
 title: LeetCode 345. Reverse Vowels of a String (Easy)
-permalink: LeetCode_345
+weburl: LeetCode_345
 toc: true
 mathjax: false
 fancybox: false

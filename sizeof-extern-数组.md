@@ -1,5 +1,5 @@
 title: sizeof 获取 extern 数组长度
-permalink: sizeof_extern_array
+weburl: sizeof_extern_array
 toc: false
 mathjax: false
 fancybox: false

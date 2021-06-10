@@ -1,5 +1,5 @@
 title: OpenCV与GTK+结合使用
-permalink: OpenCV_and_GTK
+weburl: OpenCV_and_GTK
 toc: false
 mathjax: false
 fancybox: false

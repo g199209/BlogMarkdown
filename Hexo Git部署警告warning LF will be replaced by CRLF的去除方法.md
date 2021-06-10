@@ -1,5 +1,5 @@
 title: Hexo Git部署警告"warning： LF will be replaced by CRLF"的去除方法
-permalink: Hexo_Git_CRLF
+weburl: Hexo_Git_CRLF
 toc: false
 mathjax: false
 fancybox: false

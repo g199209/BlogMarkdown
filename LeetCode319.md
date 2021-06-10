@@ -1,5 +1,5 @@
 title: LeetCode 319. Bulb Switcher (Medium)
-permalink: LeetCode_319
+weburl: LeetCode_319
 toc: true
 mathjax: false
 fancybox: false

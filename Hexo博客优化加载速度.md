@@ -1,4 +1,5 @@
 title: Hexo博客优化加载速度
+weburl: Hexo博客优化加载速度
 date: 2015-11-01 13:28:23
 tags: Blog
 categories: 工具之术

@@ -1,4 +1,5 @@
 title: 串口终端picocom的使用
+weburl: 串口终端picocom的使用
 date: 2016-06-22 20:50:23
 tags: [Linux]
 categories: 工具之术

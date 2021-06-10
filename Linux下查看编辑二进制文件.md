@@ -1,4 +1,5 @@
 title: Linux下查看编辑二进制文件
+weburl: Linux下查看编辑二进制文件
 date: 2016-07-06 11:34:39
 tags: [Linux]
 catelogies: 工具之术

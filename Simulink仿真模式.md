@@ -1,4 +1,5 @@
 title: Simulink仿真模式
+weburl: Simulink仿真模式
 date: 2015-12-23 16:25:37
 tags: [Matlab]
 categories: 工具之术

@@ -1,4 +1,5 @@
 title: 在U-Boot中添加自定义命令以实现自动下载程序
+weburl: 在U-Boot中添加自定义命令以实现自动下载程序
 date: 2016-06-26 21:06:56
 tags: [Bootloader]
 categories: 编程之法

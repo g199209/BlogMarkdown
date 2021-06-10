@@ -1,4 +1,5 @@
 title: OSI模型总结
+weburl: OSI_Model
 date: 2015-11-23 22:52:05
 tags: [Network, Top]
 categories: 软件之道
@@ -91,7 +92,6 @@ OSI七层模型的每一层都具有清晰的特征。基本来说，第七至�
 > [OSI网络结构的七层模型 TCP/IP层次模型 - cutepig's blog](http://www.cnblogs.com/cutepig/archive/2007/10/11/921427.html)
 > [OSI七层模型笔记 - 简书](http://www.jianshu.com/p/ef5703f65369)
 > [OSI七层与TCP/IP五层网络架构详解 -  服务器运维与架构](http://www.ha97.com/3215.html)
-
 
 
 

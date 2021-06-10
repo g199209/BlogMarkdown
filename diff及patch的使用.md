@@ -1,5 +1,5 @@
 title: diff及patch的使用
-permalink: Diff_Patch
+weburl: Diff_Patch
 toc: true
 mathjax: false
 fancybox: false

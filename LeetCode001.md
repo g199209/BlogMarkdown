@@ -1,5 +1,5 @@
 title: LeetCode 001. Two Sum (Easy)
-permalink: LeetCode_001
+weburl: LeetCode_001
 toc: true
 mathjax: false
 fancybox: false

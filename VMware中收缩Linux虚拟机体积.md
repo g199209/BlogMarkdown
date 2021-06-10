@@ -1,5 +1,5 @@
 title: VMware中收缩Linux虚拟机体积
-permalink: VMware_Shrink_Linux
+weburl: VMware_Shrink_Linux
 toc: false
 mathjax: false
 fancybox: false

@@ -1,5 +1,5 @@
 title: apt与apt-get命令
-permalink: apt_apt-get
+weburl: apt_apt-get
 toc: false
 mathjax: false
 fancybox: false

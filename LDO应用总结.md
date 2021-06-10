@@ -1,5 +1,5 @@
 title: LDO应用总结
-permalink: LDO
+weburl: LDO
 toc: true
 mathjax: true
 fancybox: true

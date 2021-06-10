@@ -1,4 +1,5 @@
 title: U-Boot 2016.05 在S3C2440上的移植（3）——NAND Flash
+weburl: U-Boot 2016.05 在S3C2440上的移植（3）——NAND Flash
 date: 2016-06-25 12:52:48
 tags: [Bootloader]
 categories: 编程之法
