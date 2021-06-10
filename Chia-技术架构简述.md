@@ -23,7 +23,7 @@ IPFS 好歹还可以存一些实际有用的数据，看起来还真能促进下
 
 Chia 的整体架构图如下：
 
-![](https://img.gaomf.cn/chia-network-architecture.png-height)
+![](https://img.gaomf.cn/chia-network-architecture.png?x-oss-process=image/resize,h_600)
 
 整个系统中主要有 3 种类型的参与者：
 - Farmer，农民
@@ -65,7 +65,7 @@ Farming 的过程就是对一系列 Challenges 的证明响应，每一轮证明
 
 生成一个区块的过程中会产生 64 次 Challenges，这一过程在客户端 Farming 的界面中可以看到：
 
-![](https://img.gaomf.cn/20210510-170238%402x.png-height)
+![](https://img.gaomf.cn/20210510-170238%402x.png?x-oss-process=image/resize,h_600)
 
 每一个这样的点被称为一个 Signage Point。
 
