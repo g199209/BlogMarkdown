@@ -24,3 +24,9 @@ Yiila主题也添加了Gitment支持，其[Commit](https://github.com/litten/hex
 其中Gitment的CSS & JS文件改为了本地压缩后的版本，评论框的显示效果也调整了下。
 
 终于评论系统又可以用啦，之后就该静心学学技术提高下自己的水平了……
+
+> Update:
+>
+> 2021-06-12: Gitment 的 Github OAuth 是依赖于外部服务器的，目前公共的挂得差不多了，需要自己搭一个，参考下文：
+>
+> [gitment修复[object ProgressEvent]](https://sherry0429.github.io/2019/02/12/gitment%E4%BF%AE%E5%A4%8D/)
