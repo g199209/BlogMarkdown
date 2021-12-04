@@ -1,5 +1,5 @@
 title: C++生成随机数
-weburl: C++_Random
+weburl: Cpp_Random
 toc: false
 mathjax: false
 fancybox: false
