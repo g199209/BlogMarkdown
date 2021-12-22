@@ -27,15 +27,15 @@ date: 2019-10-30 23:09:37
 
 实际测试下以上 3 种栈回溯方式得到的结果，测试程序是一个调用深度为 50 的简单程序，从 `f0()` 依次调用至 `f50()`。
 
-**`--call-graph fp`**：
+<b>`--call-graph fp`</b>：
 
 ![](https://img.gaomf.cn/perf_test_fp.svg)
 
-**`--call-graph lbr`**：
+<b>`--call-graph lbr`</b>：
 
 ![](https://img.gaomf.cn/perf_test_lbr.svg)
 
-**`--call-graph dwarf`**：
+<b>`--call-graph dwarf`</b>：
 
 ![](https://img.gaomf.cn/perf_test_dwarf.svg)
 
