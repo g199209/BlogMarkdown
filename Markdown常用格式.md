@@ -107,7 +107,7 @@ __________________________________
 ```markdown
 ![](https://img.gaomf.cn/Octocat.png)
 ```
-![](https://img.gaomf.cn/Octocat.png?x-oss-process=image/resize,w_300)
+![](https://img.gaomf.cn/Octocat.png?300x)
 
 ## 粗体和斜体
 使用2个`*`包含一段文本代表粗体，使用1个`*`包含一段文本代表斜体。

@@ -1,7 +1,7 @@
 title: 【读读论文】RocksDB 发展回顾及展望
 toc: true
 mathjax: false
-fancybox: false
+fancybox: true
 tags: [RocksDB, Storage, Distributed System, System Design, KV, Paper, Top]
 date: 2021-11-28 20:39:00
 weburl: Paper_RocksDB_Developemnt
@@ -23,7 +23,7 @@ RocksDB 是 Facebook 基于 Google 的 LevelDB 于 2012 年开发的一款高性
 
 RocksDB 是高度可定制的，因此它作为一个核心 KV 存储引擎能适应各种工作负载，用户可以根据自己的需要对它进行针对性调优，如为读性能优化，为写性能优化，为空间使用率优化，或它们之间的某个平衡点。正是因为如此灵活的可配置性，RocksDB 可以作为很多不同数据库的存储引擎使用，如 MySQL，CockroachDB，MongoDB，TiDB 等，也可以满足流式计算（Stream processing），日志服务（Logging/queuing services），索引服务（Index services），缓存服务（Caching on SSD）等多种特性完全不同的业务需求。这些不同业务场景特性总结如下：
 
-![不同 RocksDB 负载特性](https://img.gaomf.cn/202111232051352.png?x-oss-process=image/resize,w_500)
+![不同 RocksDB 负载特性](https://img.gaomf.cn/202111232051352.png?500x)
 
 这么多不同应用共用一个相同的存储引擎与每个应用都去搭一套自己的存储子系统相比有很多优势：
 
@@ -52,7 +52,7 @@ RocksDB 设计之初就是为 SSD 及现代硬件优化的。SSD 的 IOPS 及读
 
 RosksDB 的核心数据结构是 LSM-tree，其基本结构如下：
 
-![LSM-tree](https://img.gaomf.cn/202111241305118.png?x-oss-process=image/resize,w_600)
+![LSM-tree](https://img.gaomf.cn/202111241305118.png?600x)
 
 几种基本操作的流程简述如下：
 
@@ -80,9 +80,9 @@ RocksDB 支持多种不同的 Compaction 算法：
 
 可以使用多种不同的 Compaction 策略使得 RocksDB 可以适用于广泛的应用场景，通过配置 RocksDB 可以变成为读优化，为写优化或极度为写优化（用于 Cache 等应用中）。不同的配置其实是读写放大间的平衡问题，一些实际的测试结果如下：
 
-![image-20211124144605620](https://img.gaomf.cn/202111241446703.png?x-oss-process=image/resize,w_500)
+![image-20211124144605620](https://img.gaomf.cn/202111241446703.png?500x)
 
-![image-20211124144641862](https://img.gaomf.cn/202111241446926.png?x-oss-process=image/resize,w_500)   
+![image-20211124144641862](https://img.gaomf.cn/202111241446926.png?500x)   
 
 ## 3 资源优化目标的演进
 
@@ -110,7 +110,7 @@ RocksDB 开发者们引入了所谓的 Dynamic Leveled Compaction 策略，此�
 
 此策略的效果如下：
 
-![Dynamic Leveled Compaction Compare](https://img.gaomf.cn/202111241534602.png?x-oss-process=image/resize,w_500)
+![Dynamic Leveled Compaction Compare](https://img.gaomf.cn/202111241534602.png?500x)
 
 ### CPU 使用率
 
@@ -122,7 +122,7 @@ RocksDB 开发者们引入了所谓的 Dynamic Leveled Compaction 策略，此�
 
 为了证明此观点是正确的，作者给出了若干个 ZippyDB & MyRocks 的实际测试结果用以论证空间才是瓶颈所在：
 
-![ZippyDB & MyRocks](https://img.gaomf.cn/202111242103743.png?x-oss-process=image/resize,w_500)
+![ZippyDB & MyRocks](https://img.gaomf.cn/202111242103743.png?500x)
 
 虽然说了这么多无需太担心 CPU 成为瓶颈，作者认为我们还是要去优化 CPU 使用率，为什么呢？因为其他更重要的优化，如空间放大优化都做完了没有可做的了……（这段真不是我瞎写的，原文就是这么说的：Nevertheless, reducing CPU overheads has become an important optimization target, given that the low hanging fruit of reducing space amplification has been harvested.）此外，CPU 和内存还越来越贵了，优化 CPU 使用可以让我们用一些更便宜的 CPU……
 
@@ -238,7 +238,7 @@ RocksDB 本身是一个单节点的库，使用 RocksDB 的应用需要自己处
 
 目前的 RocksDB 校验和保护机制可分为 4 层（含计划中的应用层校验和）：
 
-![image-20211128173834771](https://img.gaomf.cn/202111281738877.png?x-oss-process=image/resize,w_500)
+![image-20211128173834771](https://img.gaomf.cn/202111281738877.png?500x)
 
 - Block checksum。源于 LevelDB，SSTable 中 Block 级别的校验，会在每次读取时进行检查，用于防止由于底层文件系统导致的数据损坏；
 - File checksum。在 2020 年加入，整个 SSTable 的校验，保存在 SSTable 的 meta 字段中，用于防止在传输整个 SSTable 过程中发生的数据损坏；
@@ -269,7 +269,7 @@ RocksDB 内部是有一个 56-bit 的序列号用于区分不同版本的 KV 对
 
 因此在 KV 接口层面就支持指定时间戳会是一个更好的解决方案，目前 RocksDB 对此已经提供了基本的支持。以应用自行在 Key 中编码时间戳的性能为基准，原生带时间戳的 KV 接口性能如下：
 
-![image-20211128182700205](https://img.gaomf.cn/202111281827346.png?x-oss-process=image/resize,w_500)
+![image-20211128182700205](https://img.gaomf.cn/202111281827346.png?500x)
 
 可以看到至少有 1.2 倍性能提升，原因在于查询操作可以使用正常 Query 接口而非 Scan 接口了，此时 Bloom Filter 等就都可以起作用了。此外 SSTable 包含的时间戳范围可以加入到其元信息中了，这就有助于在读的时候直接跳过不符合要求的 SSTable 文件。
 
@@ -291,7 +291,7 @@ RocksDB 内部是有一个 56-bit 的序列号用于区分不同版本的 KV 对
 
 ## 附录 A. RocksDB 发展路线图
 
-![image-20211124225709050](https://img.gaomf.cn/202111242257178.png?x-oss-process=image/resize,w_700)
+![image-20211124225709050](https://img.gaomf.cn/202111242257178.png?700x)
 
 > 很不错的图～可以看到 RocksDB 性能上的优化主要聚焦于 Compaction 及 Bloom Filter 展开～
 

@@ -122,7 +122,7 @@ make -j 4 && sudo make install
 
 打开Vim后使用`:version`查看版本信息：
 
-![](https://img.gaomf.cn/20170117170247.png?x-oss-process=image/resize,h_600)
+![](https://img.gaomf.cn/20170117170247.png?x600)
 
 最后清理下编译中间文件：
 

@@ -51,7 +51,7 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 
 选择了`WITH_QT`后，`highgui`本身的窗口界面会变成基于Qt的，比原来要好看一些，而且自动集成了一些图片缩放、保存等功能：
 
-![](https://img.gaomf.cn/20161209224409.png?x-oss-process=image/resize,w_600)
+![](https://img.gaomf.cn/20161209224409.png?600x)
 
 不过这还是满足不了我们自由设计GUI界面的需求，接下来就要讨论如何在Qt项目中使用OpenCV。
 
