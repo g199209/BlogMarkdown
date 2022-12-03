@@ -3,7 +3,7 @@ weburl: Cpp_Random
 toc: false
 mathjax: false
 fancybox: false
-tags: [C++, Number Theory]
+tags: [Cpp, Number Theory]
 categories: 编程之法
 date: 2017-03-22 15:42:55
 

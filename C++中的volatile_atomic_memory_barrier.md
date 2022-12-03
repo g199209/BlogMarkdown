@@ -2,7 +2,7 @@ title: C++ 中的 volatile，atomic 及 memory barrier
 toc: false
 mathjax: false
 fancybox: false
-tags: [C++, Compiler, Concurrent, x86, ARM]
+tags: [Cpp, Compiler, Concurrent, x86, ARM]
 date: 2020-09-11 16:46:28
 weburl: Cpp_Volatile_Atomic_Memory_barrier
 categories: 编程之法

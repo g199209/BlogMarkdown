@@ -2,7 +2,7 @@ title: std::string COW 机制下的线程安全问题
 toc: true
 mathjax: false
 fancybox: false
-tags: [C++, Concurrent, Top]
+tags: [Cpp, Concurrent, Top]
 date: 2022-12-03 15:53:00
 weburl: Cpp_String_COW_Thread_Safety
 categories: 编程之法
