@@ -116,7 +116,7 @@ int main() {
 - 本文所述的 `string` 实现由 COW 改为 SSO；
 - `std::list::size()` 的实现由 `O(N)` 复杂度改为 `O(1)` 复杂度，本质就是在 `list` 结构中增加了一个表示链表长度的字段。
 
-默认情况下 5.x 之后的 GCC 版本都会预定义此宏，即 `-D_GLIBCXX_USE_CXX11_ABI=1`，可以手动的加上 `-D_GLIBCXX_USE_CXX11_ABI=0` 来禁用此行为使用原来老的实现，这主要是在处理 ABI 兼容问题是会使用。
+默认情况下 5.x 之后的 GCC 版本都会预定义此宏，即 `-D_GLIBCXX_USE_CXX11_ABI=1`，可以手动的加上 `-D_GLIBCXX_USE_CXX11_ABI=0` 来禁用此行为使用原来老的实现，这主要是在处理 ABI 兼容问题时会使用。
 
 -------
 
